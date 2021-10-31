@@ -1,4 +1,4 @@
-# GMS2 Move in 8 Directions
+# GMS2 Move in 4 Directions
 
 
 <!-- OVERVIEW -->
