@@ -27,6 +27,8 @@ Now lets create a sprite for our player that we will be moving.  We will create 
 
 ![create spr_player and add a circle and eyeball facing left](images/SprPlayer.gif)
 
+![final player](images/simplePlayerSprite.png)
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
