@@ -61,7 +61,7 @@ Open up **obj_player** and press the <kbd>Add Event</kbd> button and add a **Ste
 
 Lets prove it.  We will use another new function **[show_debug_message(string)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Debugging/show_debug_message.htm)**.  It will print this message in the Debugger Output window. 
 
-![add a keyboard check function and subtract right button from left button and print result to console log](images/ShowRightControls.gif)
+![add a keyboard check function and subtract right button from left button and print result to console log](images/simpleStepEvent.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
