@@ -51,7 +51,16 @@ If you don't have one from the last exercise *Right click* on **Fonts** and sele
 
 ##### `Step 5.`\|`4DIR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+If you don't already have an **obj_game** *right click* on **Objects** and select **New | Object** and name it `obj_game`. Set **Persistent** to `true`. Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
+
+* Set the font to **fnt_title**
+* Center the text alignment
+* Set the color to yellow
+* Set up a temporary variable called `title`
+* Switch on the room and set the **title** to `"Last Key Pressed`
+* Draw title
+
+![alt_text](images/objGame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
