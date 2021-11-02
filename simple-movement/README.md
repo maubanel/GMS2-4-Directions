@@ -101,6 +101,10 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 10.`\|`MI8D`| :large_blue_diamond:
 
+Now lets have the player character look at the direction it is moving in.  Now we want the player's **[image_angle](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_angle.htm)** to face the direction the player is moving in.  There is a variable called **[direction](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/direction.htm)**. that has the angle of the speed of the player (the addition of the hspeed and vspeed).
+		
+> All instances in GameMaker Studio 2 have certain "built in" properties that you can use and set to govern how they look and behave. Direction is one of those properties and can be used to set the direction of movement of the instance when the instance has a speed other than 0. Note that directions in GameMaker Studio 2 are usually calculated as 0° being right, 90° being up, 180° being left and 270° being down. - GameMaker Manual
+
 We can just set the angle of the sprite to teh direction of the movement as the player will always be facing the angle they move in.  We will also add the ability to wrap if you want this functionality.  Most games restrict leaving the level so this might not be necessary or desirable.
 
 ![add movement to script by using hspeed and vspeed with the input axis](images/turnPlayerWrap.png)
@@ -109,10 +113,7 @@ We can just set the angle of the sprite to teh direction of the movement as the 
 
 ##### `Step 11.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: 
 
-We will also add the ability to wrap if you want this functionality.  Most games restrict leaving the level so this might not be necessary or desirable.
-
-
-The problm with simple controls like this is that it doesn't take into account more cmoplex behavior.  If I am pressing the <kbd>left</kbd> key and press <kbd>down</kbd> before letting go the player will still move left until I let go.  It doesn't take into account the *latest* button pressed.  I just will either be left, right down or up in that order, that if is pressed the `if else if` chain wills stop.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. The next issue is that the turning of the player is not smooth.
 
 ![player moves in eight directions but leaves level](images/TwoAxis8DirectionMovement.gif)
 
@@ -121,16 +122,18 @@ The problm with simple controls like this is that it doesn't take into account m
 
 ##### `Step 12.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-If all you wanted is simple movement you can stop here.  Otherwise lets add some text to halp us contextualize what we are trying to do.  
+The player is turning aroun the top left corner.  We want the player to turn from its center of gravity. Open up **spr_player** and change the **Origin** to `Middle | Center`.
 
-![add move_wrap to level to stop player from leaving level](images/addMoveWrap.png)
+![add move_wrap to level to stop player from leaving level](images/originMC.png)
 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Press the left, right, up and down arrow on the keyboard.  Now go off screen both horizontally and vertically and it reappears on the other side.  Works like a charm and you can never exit the play volume! 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. This is the most simple implentation of four way movement.
+
+The problem with simple controls like this is that it doesn't take into account more cmoplex behavior.  If I am pressing the <kbd>left</kbd> key and press <kbd>down</kbd> before letting go the player will still move left until I let go.  It doesn't take into account the *latest* button pressed.  I just will either be left, right down or up in that order, that if is pressed the `if else if` chain wills stop.
 
 ![play game and try and leave level but player wraps](images/MoveWrap.gif)
 
@@ -138,13 +141,11 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 
 ##### `Step 14.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now lets have the player character look at the direction it is moving in.  Now we want the player's **[image_angle](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_angle.htm)** to face the direction the player is moving in.  There is a variable called **[direction](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/direction.htm)**. that has the angle of the speed of the player (the addition of the hspeed and vspeed).
-		
-> All instances in GameMaker Studio 2 have certain "built in" properties that you can use and set to govern how they look and behave. Direction is one of those properties and can be used to set the direction of movement of the instance when the instance has a speed other than 0. Note that directions in GameMaker Studio 2 are usually calculated as 0° being right, 90° being up, 180° being left and 270° being down. - GameMaker Manual
+If all you wanted is simple movement you can stop here.  Otherwise lets add some text to halp us contextualize what we are trying to do.  
 
-Add the following to **obj_player: Step** event script.
+*Right click* on **Fonts** and select **New | Font** and name it `fnt_title`. Change the **Font Size** to `36` and set the **Style** it to `Bold`.
 
-![set image_angle to direction](images/setImageAngle.png)
+![create fnt_title at 36 point with a bold typefacen](images/titleFont.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -158,9 +159,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. R
 
 ##### `Step 16.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Open up **spr_player** and press the **Origin | Middle Center** option to center the origin.  We want the sprite to rotate in its center of gravity.
+*Right click* on **Objects** and select **Create | Object** and name it `obj_game`. This will be a blank object.  Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
 
-![center player origin](images/CenterPlayerOrigin.png)
+![](images/CenterPlayerOrigindrwaTitle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
