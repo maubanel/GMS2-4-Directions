@@ -13,7 +13,7 @@ For moving in four directions we will look at each direction seperately and move
 ---
 
 
-##### `Step 1.`\|`MI8D`|:small_blue_diamond:
+##### `Step 1.`\|`4DIR`|:small_blue_diamond:
 
 Create a new level by right clicking on **Rooms** and select **Create | Room** and call it `rm_simple_movement`.  Open up **Room Order** and *drag* it to the top of the list if you have other rooms in your project.
 
@@ -21,7 +21,7 @@ Create a new level by right clicking on **Rooms** and select **Create | Room** a
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: 
 
 Now lets create a sprite for our player that we will be moving.  We will create an eyeball so we can see the direction we are moving in. Right click on **Sprites** and select **Create | Sprite** and call it `spr_player`.  Now press the <kbd>Edit Image</kbd> button to go to the editor.  Select the **Circle tool** and the yellow color and draw a round circle to fill the sprite,  Add an eyeball pointing the right (0 degrees) so that we have the player oriented in our starting direction.
 
@@ -31,7 +31,7 @@ Now lets create a sprite for our player that we will be moving.  We will create 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 3.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Right click* on **Objects** and select **Create | Object** and name it `obj_player_simple`.  Assign sprite `spr_player` by pressing **Sprite** and selecting the sprite.
 
@@ -39,7 +39,7 @@ Now lets create a sprite for our player that we will be moving.  We will create 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 4.`\|`MI8D`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Press the <kbd>Add Event</kbd> and add a **Create** and center the object in the dead center of the room.
 
@@ -47,7 +47,7 @@ Press the <kbd>Add Event</kbd> and add a **Create** and center the object in the
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 5.`\|`MI8D`| :small_orange_diamond:
+##### `Step 5.`\|`4DIR`| :small_orange_diamond:
 
 Open up **rm_simple_movement** and drag and drop a **obj_player_simple** into the level. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game.
 
@@ -55,7 +55,7 @@ Open up **rm_simple_movement** and drag and drop a **obj_player_simple** into th
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 6.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 6.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond:
 
 Open up **obj_player** and press the <kbd>Add Event</kbd> button and add a **Step | Step** event.  Now we will look at **[keyboard_check(key)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input/keyboard_check.htm)** and will check each key seperately.  
 
@@ -75,7 +75,7 @@ Please note that setting `hspeed = -2.5` is the same as setting the `direction =
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 7.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now run around.  The issue is that when you let go of all the keys and player still moves around the level.
 
@@ -83,7 +83,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 8.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 So if none of the buttons are pressed we can end with an `else` since none of the buttons are pressed an just set the `speed` to `0`.
 
@@ -91,7 +91,7 @@ So if none of the buttons are pressed we can end with an `else` since none of th
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 9.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now when you let go you stop.  This works but the player does not face the direction they are moving in. The player can also leave the room. Lets fix that.
 
@@ -99,7 +99,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 10.`\|`MI8D`| :large_blue_diamond:
+##### `Step 10.`\|`4DIR`| :large_blue_diamond:
 
 Now lets have the player character look at the direction it is moving in.  Now we want the player's **[image_angle](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_angle.htm)** to face the direction the player is moving in.  There is a variable called **[direction](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/direction.htm)**. that has the angle of the speed of the player (the addition of the hspeed and vspeed).
 		
@@ -111,7 +111,7 @@ We can just set the angle of the sprite to teh direction of the movement as the 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 11.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 11.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. The next issue is that the turning of the player is not smooth.
 
@@ -120,7 +120,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. T
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
-##### `Step 12.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 12.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 The player is turning aroun the top left corner.  We want the player to turn from its center of gravity. Open up **spr_player** and change the **Origin** to `Middle | Center`.
 
@@ -129,7 +129,7 @@ The player is turning aroun the top left corner.  We want the player to turn fro
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 13.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 13.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. This is the most simple implentation of four way movement.
 
@@ -139,7 +139,7 @@ The problem with simple controls like this is that it doesn't take into account 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 14.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 If all you wanted is simple movement you can stop here.  Otherwise lets add some text to halp us contextualize what we are trying to do.  
 
@@ -149,7 +149,7 @@ If all you wanted is simple movement you can stop here.  Otherwise lets add some
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 15.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 15.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond: 
 
 *Right click* on **Objects** and select **Create | Object** and name it `obj_game`. This will be a blank object.  Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
 
@@ -163,7 +163,7 @@ If all you wanted is simple movement you can stop here.  Otherwise lets add some
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 16.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 16.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Set the **obj_game** to `Persistent` so that it goes from level to level. Drag **obj_game** into **rm_simple_movement**.
 
@@ -171,7 +171,7 @@ Set the **obj_game** to `Persistent` so that it goes from level to level. Drag *
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 17.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 17.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. You should now have a title!
 
@@ -179,7 +179,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Y
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 18.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Create another **Font** and call it `fnt_hud`.  Make the **Size** `12` and **Style** `normal`.  Open up **obj_player**. Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
 
@@ -192,7 +192,7 @@ Create another **Font** and call it `fnt_hud`.  Make the **Size** `12` and **Sty
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 19.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 19.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the hspeed and vspeed are printed on the screen so we can see it change with the player's direction and image_angle.
 
@@ -200,7 +200,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 20.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 20.`\|`4DIR`| :large_blue_diamond: :large_blue_diamond:
 
 Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
@@ -212,9 +212,9 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - TBD">
+<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Last Key Pressed">
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../)| [home](../README.md#user-content-gms2-move-in-8-directions) | [next](../)|
+| [previous](../)| [home](../README.md#user-content-gms2-move-in-4-directions) | [next](../)|
 |---|---|---|
