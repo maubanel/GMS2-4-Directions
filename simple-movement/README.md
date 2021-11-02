@@ -165,7 +165,7 @@ If all you wanted is simple movement you can stop here.  Otherwise lets add some
 
 ##### `Step 16.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Set the **obj_game** to `Persistent` so that it goes from level to level.  Also, it is not meant to render a sprite so turn **Visible** off.  Drag **obj_game** into **rm_simple_movement**.
+Set the **obj_game** to `Persistent` so that it goes from level to level. Drag **obj_game** into **rm_simple_movement**.
 
 ![obj_game is persistent and not visible and is added to room rm_simple_movement](images/persistent.png)
 
@@ -173,19 +173,25 @@ Set the **obj_game** to `Persistent` so that it goes from level to level.  Also,
 
 ##### `Step 17.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have the movement working how we like it for a quick and simple implementation.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. You should now have a title!
 
-![run game and move player in 8 directoins](images/FInalTurning.gif)
+![title in rm_simple_movement](images/title.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Create another **Font** and call it `fnt_hud`.  Make the **Size** `12` and **Style** `normal`.  Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
+
+* 
+![hud font drawing hspeed and vspeed in obj_player](images/playerHUD.png)
+
+
+___
+
 Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
 ![save, quit, commit and push to github](images/GitHub.png)
-___
-
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
