@@ -115,7 +115,7 @@ We can just set the angle of the sprite to teh direction of the movement as the 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. The next issue is that the turning of the player is not smooth.
 
-![player moves in eight directions but leaves level](images/TwoAxis8DirectionMovement.gif)
+![player moves in eight directions but leaves level](images/.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
