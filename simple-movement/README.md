@@ -153,7 +153,13 @@ If all you wanted is simple movement you can stop here.  Otherwise lets add some
 
 *Right click* on **Objects** and select **Create | Object** and name it `obj_game`. This will be a blank object.  Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
 
-![](images/drwaTitle.png)
+* Set the font to **fnt_title**.
+* Center the text display.
+* Set the draw color to yellow.
+* Add a title called **Simple Movement**.
+* Draw the title to the top center of the screen
+
+![Added Simple Movement Title to DrawGUI script](images/drwaTitle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
