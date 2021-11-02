@@ -165,7 +165,9 @@ If all you wanted is simple movement you can stop here.  Otherwise lets add some
 
 ##### `Step 16.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Set the **obj_game** to `Persistent` so that it goes from level to level.  Also, it is not meant to render a sprite so turn **Visible** off.  Drag **obj_game** into **rm_simple_movement**.
 
+![obj_game is persistent and not visible and is added to room rm_simple_movement](images/persistent.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
