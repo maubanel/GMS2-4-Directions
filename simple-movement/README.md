@@ -181,7 +181,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Y
 
 ##### `Step 18.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create another **Font** and call it `fnt_hud`.  Make the **Size** `12` and **Style** `normal`.  Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
+Create another **Font** and call it `fnt_hud`.  Make the **Size** `12` and **Style** `normal`.  Open up **obj_player**. Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
 
 * Left align the text
 * Set the font to white
