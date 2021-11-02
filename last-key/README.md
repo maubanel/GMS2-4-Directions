@@ -60,13 +60,19 @@ If you don't already have an **obj_game** *right click* on **Objects** and selec
 * Switch on the room and set the **title** to `"Last Key Pressed`
 * Draw title
 
-![alt_text](images/objGame.png)
+Don't incolude the `case rm_simple_movement:` if you do NOT have this room. Only include this if you have done the previous exercise.
+
+![added title logic](images/objGame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_game**. Press the <kbd>Add Event</kbd> and select a **Step | Step** event. Only add this if you want to switch between rooms with the different implementations of the 4 way movement.  
+
+* 
+
+![alt_text](images/switchRooms.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
