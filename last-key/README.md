@@ -23,7 +23,9 @@ Create a sprite called `spr_player` (I have called mine sp_player_2 as I have it
 
 ##### `Step 2.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+*Right click* on **Objects** and select **New | Object** and name it `obj_player_track_2`. Set the **Sprite** to `spr_player`.
+
+![obj_player_track_2 object with spr_player](images/objPlayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
