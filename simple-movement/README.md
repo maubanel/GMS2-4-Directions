@@ -183,15 +183,32 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Y
 
 Create another **Font** and call it `fnt_hud`.  Make the **Size** `12` and **Style** `normal`.  Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
 
-* 
+* Left align the text
+* Set the font to white
+* Draw the hspeed 
+* Draw teh vspeed
+
 ![hud font drawing hspeed and vspeed in obj_player](images/playerHUD.png)
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-___
+##### `Step 19.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the hspeed and vspeed are printed on the screen so we can see it change with the player's direction and image_angle.
+
+![play game with full HUD](images/playWithHUD.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 20.`\|`MI8D`| :large_blue_diamond: :large_blue_diamond:
 
 Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
 ![save, quit, commit and push to github](images/GitHub.png)
+
+___
+
+
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
