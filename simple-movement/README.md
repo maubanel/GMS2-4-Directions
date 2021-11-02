@@ -151,17 +151,15 @@ If all you wanted is simple movement you can stop here.  Otherwise lets add some
 
 ##### `Step 15.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond: 
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Run the game and notice that the rotation is wrong.  The player is rotating along its origin or the top left corner. This looks really bad when turning.
+*Right click* on **Objects** and select **Create | Object** and name it `obj_game`. This will be a blank object.  Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
 
-![turning the player in game looks jerky](images/BadTurning.gif)
+![](images/drwaTitle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`MI8D`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Right click* on **Objects** and select **Create | Object** and name it `obj_game`. This will be a blank object.  Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
 
-![](images/CenterPlayerOrigindrwaTitle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
