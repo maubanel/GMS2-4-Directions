@@ -15,7 +15,7 @@ Lets look at various ways of moving a human character in 4 directions.
 <!-- TOC -->
 ## Table of Contents
 <kbd></kbd> &nbsp;&nbsp; [Simple Movement](simple-movement/README.md#user-content-simple-movement-in-4-directions) <br>
-
+<kbd></kbd> &nbsp;&nbsp; [Last Key Pressed](last-key/README.md#user-content-last-key-pressed) <br>
 
 
 
