@@ -59,6 +59,12 @@ Open up **rm_simple_movement** and drag and drop a **obj_player_simple** into th
 
 Open up **obj_player** and press the <kbd>Add Event</kbd> button and add a **Step | Step** event.  Now we will look at **[keyboard_check(key)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input/keyboard_check.htm)** and will check each key seperately.  
 
+We wil be moving the player using **[vspeed](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/vspeed.htm)** and **[hspeed](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/hspeed.htm)**.
+
+> hspeed is one of the "built in" properties that all instances have and defines the horizontal movement speed (along the x-axis) of the instance in pixels per step. So, an hspeed of 3 means 3 pixels of movement to the right (+x) every step, and an hspeed of -3 would mean 3 pixels of movement to the left (-x) every step. - GameMake Manual
+
+> vspeed is one of the "built in" properties that all instances have and defines the vertical movement speed (along the y-axis) of the instance in pixels per step. So, a vspeed of 3 means 3 pixels of movement to the bottom (+y) every step, and a vspeed of -3 would mean 3 pixels of movement to the top (-y) every step.
+
 If either the <kbd>left</kbd> or <kbd>right</kbd> keys are pressed then we set the `hspeed` to a positive (right) or negative (left) number.  We then set any vestigial speed in the vertical domain to `0` by setting `vspeed = 0;`. This will guarantee that we will not move diagonally.
 
 If either the <kbd>up</kbd> or <kbd>down</kbd> keys are pressed then we set the `vspeed` to a positive (down) or negative (up) number.  We then set any vestigial speed in the horizontal domain to `0` by setting `hspeed = 0;`.
@@ -87,29 +93,26 @@ So if none of the buttons are pressed we can end with an `else` since none of th
 
 ##### `Step 9.`\|`MI8D`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Look at the Output Tab and press the left, right, up and down arrow on the keyboard.  The message should print and show either a -1, 0 or 1 for both horizontal or vertical movement. Notice that this only returns a `0`,`1` or `-1` no matter what.  We will use this to multiply how many pixels we move on each axis.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now when you let go you stop.  This works but the player does not face the direction they are moving in. The player can also leave the room. Lets fix that.
 
-![run game and see all four keys have an effect](images/TwoAxisMovementPrint.gif)
+![run game and see all four keys have an effect](images/.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`MI8D`| :large_blue_diamond:
 
-Now what is nice about having a range of -1 to 1 is that we can scale it by multiplying it.  If we want to move at a speed of 5 we can multiply this value by 5 and it will range from -5 to 5.  What we will do is set the movement component for each axis.  This is through two variables that comes with every object. **[vspeed](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/vspeed.htm)** and **[hspeed](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/hspeed.htm)**.
+We can just set the angle of the sprite to teh direction of the movement as the player will always be facing the angle they move in.  We will also add the ability to wrap if you want this functionality.  Most games restrict leaving the level so this might not be necessary or desirable.
 
-> hspeed is one of the "built in" properties that all instances have and defines the horizontal movement speed (along the x-axis) of the instance in pixels per step. So, an hspeed of 3 means 3 pixels of movement to the right (+x) every step, and an hspeed of -3 would mean 3 pixels of movement to the left (-x) every step. - GameMake Manual
-
-> vspeed is one of the "built in" properties that all instances have and defines the vertical movement speed (along the y-axis) of the instance in pixels per step. So, a vspeed of 3 means 3 pixels of movement to the bottom (+y) every step, and a vspeed of -3 would mean 3 pixels of movement to the top (-y) every step.
-
-Delete the two `show_debug_message(string)` functions and add to both the `hspeed` and `vspeed` to the object.  Now that will mean when pressing right it will multiply 1 * 5 and if you press left it will multiple -1 * 5.  So right moves 5 pixels per frame and left moves -5 pixels per frame.  Same for up and down where up will move -5 pixels up per frame and down will move 5 pixels down per frame.
-
-![add movement to script by using hspeed and vspeed with the input axis](images/AddMovementToScript.png)
+![add movement to script by using hspeed and vspeed with the input axis](images/turnPlayerWrap.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: 
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Press the left, right, up and down arrow on the keyboard.  Now the circle moves around the screen.  But woops it can go off screen and disapear.
+We will also add the ability to wrap if you want this functionality.  Most games restrict leaving the level so this might not be necessary or desirable.
+
+
+The problm with simple controls like this is that it doesn't take into account more cmoplex behavior.  If I am pressing the <kbd>left</kbd> key and press <kbd>down</kbd> before letting go the player will still move left until I let go.  It doesn't take into account the *latest* button pressed.  I just will either be left, right down or up in that order, that if is pressed the `if else if` chain wills stop.
 
 ![player moves in eight directions but leaves level](images/TwoAxis8DirectionMovement.gif)
 
@@ -118,11 +121,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 
 ##### `Step 12.`\|`MI8D`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Since the entire level is in this one window we can wrap the player when it goes off screen. **GameMaker** has built in functions for a lot of very common game issues and this is one of them: **[move_wrap(hor, vert, margin)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement/move_wrap.htm)**
-
-The **hor** and **vert** are **booleans** so you can set it to wrap either just vertically or horizontally or both.  The margin adjusts so that the sprite has to be offscreen by so many pixels.  In our case it is only completely off screen when half the sprite_get_width(spr_circle) is off screen.  
-
-Add the following to obj_circle_movement: Step event script.
+If all you wanted is simple movement you can stop here.  Otherwise lets add some text to halp us contextualize what we are trying to do.  
 
 ![add move_wrap to level to stop player from leaving level](images/addMoveWrap.png)
 
