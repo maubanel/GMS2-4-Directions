@@ -31,7 +31,13 @@ Create a sprite called `spr_player` (I have called mine sp_player_2 as I have it
 
 ##### `Step 3.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+In **obj_player_track_2** press the <kbd>Add Event</kbd> and select a **Create** event.
+
+* Center the sprite in the room
+* Add a variable to track the speed of the player in pixels per step called `p_speed`
+* Add a variable to store the last valid movement button pressed
+
+![center text and add p_speed and ](images/playerCreate.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
