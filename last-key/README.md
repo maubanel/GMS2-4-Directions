@@ -70,7 +70,9 @@ Don't incolude the `case rm_simple_movement:` if you do NOT have this room. Only
 
 Open up **obj_game**. Press the <kbd>Add Event</kbd> and select a **Step | Step** event. Only add this if you want to switch between rooms with the different implementations of the 4 way movement.  
 
-* 
+* Check if space is pressed and if there is another room to go to
+* If so, then go to next room
+* Else if space is pressed, go back to first room (if it exists)
 
 ![alt_text](images/switchRooms.png)
 
