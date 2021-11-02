@@ -35,7 +35,7 @@ In **obj_player_track_2** press the <kbd>Add Event</kbd> and select a **Create**
 
 * Center the sprite in the room
 * Add a variable to track the speed of the player in pixels per step called `p_speed`
-* Add a variable to store the last valid movement button pressed
+* Add a variable to store the last valid movement button pressed called `last_movement_key`
 
 ![center text and add p_speed and ](images/playerCreate.png)
 
