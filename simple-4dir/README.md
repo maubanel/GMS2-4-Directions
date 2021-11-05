@@ -62,13 +62,30 @@ If you have completed the previous Simple Movement walk through you can duplicat
 
 ##### `Step 6.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond:
 
-In **obj_player_track_2** press the <kbd>Add Event</kbd> and select a **Create** event.
+We are not rotating the sprite but switching between animated sprites in the four needed directions.  You can delete or comment out `image_angle = direction;`.  Now we will be using a **[switch](https://manual.yoyogames.com/GameMaker_Language/GML_Overview/Language_Features/switch.htm)** statement.
 
-* Center the sprite in the room
-* Add a variable to track the speed of the player in pixels per step called `p_speed`
-* Add a variable to store the last valid movement button pressed called `last_movement_key`
+> In a number of situations you want to let your instances complete different actions depending on a particular value. You can do this using a number of consecutive if / else statements, but when the possible choices gets above two or three it is usually easier to use the switch statement. A switch statement has the following form:
 
-![center text and add p_speed and ](images/playerCreate.png)
+```
+switch (<expression>)
+{
+    case <constant1>: <statement1>; ... ; break;
+    case <constant2>: <statement2>; ... ; break;
+    ...
+    default: <statement>;
+}
+```
+
+> This works as follows:<br><br>1. First the expression is executed.
+Next it is compared with the results of the different constants after each of the case statements. When we say "constant" what we mean is that the value in the case cannot be a variable expression and must be a fixed value of any data type, like "fight" or 3 or the keyword noone.<br><br>2.The execution continues after the first case statement with the correct value, until a break statement is encountered.<br><br>3.If no case statement has the right value, then the default statement will be executed (it is not required to have a default statement, and if none is supplied then no action will be taken).
+
+![center text and add p_speed and ](images/replaceAngleWithSwitch.png)
+
+
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 7.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 If you don't have one from the last exercise *Right click* on **Fonts** and select **New | Font** and name it `fnt_title`. Make the **Size** `36` and the **Style** `Bold`.
 
@@ -94,10 +111,6 @@ Open up **obj_game**. Press the <kbd>Add Event</kbd> and select a **Step | Step*
 * Else if space is pressed, go back to first room (if it exists)
 
 ![alt_text](images/switchRooms.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 7.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Right click* on **Rooms** and select **New | Room** and name it `rm_track_2`. Change the **Room Order** to place this room on the top of the list or you can leave it in order and press the <kbd>Space Bar</kbd> to change rooms if you have done the previous exercise and added the **Step** event to **obj_game**.
 
