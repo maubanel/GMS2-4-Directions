@@ -17,7 +17,12 @@ Lets look at various ways of moving a human character in 4 directions.
 <kbd></kbd> &nbsp;&nbsp; [Simple Movement](simple-movement/README.md#user-content-simple-movement-in-4-directions) <br>
 <kbd></kbd> &nbsp;&nbsp; [Last Key Pressed](last-key/README.md#user-content-last-key-pressed) <br>
 
-
+## Core Algorithm
+1. Get Controls
+2. Update player phyics 
+3. Move and rotate player based on above physics (resolve physics if using speed/hspeed/vspeed automatically happens between step and end step events)
+4. Resolve collision -> Decide on final state (walking, running, stopped etc...)
+5. Select Animation
 
 <!-- LICENSE -->
 ## License
