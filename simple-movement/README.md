@@ -77,7 +77,7 @@ Please note that setting `hspeed = -2.5` is the same as setting the `direction =
 
 ##### `Step 7.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now run around.  The issue is that when you let go of all the keys and player still moves around the level.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now run around.  The issue is that when you let go of all the keys and player still moves around the level. Notice when I let go of the direction keys that the player doesn't stop.
 
 https://user-images.githubusercontent.com/5504953/140506080-13980027-e9be-40c4-ab10-bf28f64315a2.mp4
 
