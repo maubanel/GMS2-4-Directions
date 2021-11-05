@@ -15,7 +15,9 @@ Now lets use a sprite that animates with 4 directions.  So we will not ritate a 
 
 ##### `Step 1.`\|`4DIR`|:small_blue_diamond:
 
-Download the [player sprites](../Assets/4DirectionAnimations.yymps). Go back to **GameMaker** and make sure you have an existing [GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/rename-project/README.md#user-content-rename-gms2-project)
+Download the [player sprites](../Assets/4DirectionAnimations.yymps). Go back to **GameMaker** and make sure you have an existing [GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/rename-project/README.md#user-content-rename-gms2-project).
+
+Go back to **GameMaker** and press **Tools | Import Local Package**.
 
 ![create spr_player sprite](images/downloadImport.png)
 
