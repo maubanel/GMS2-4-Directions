@@ -79,6 +79,8 @@ Please note that setting `hspeed = -2.5` is the same as setting the `direction =
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now run around.  The issue is that when you let go of all the keys and player still moves around the level.
 
+https://user-images.githubusercontent.com/5504953/140506080-13980027-e9be-40c4-ab10-bf28f64315a2.mp4
+
 ![play game and see output for when pressing left and right buttons on keyboard](images/add.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
