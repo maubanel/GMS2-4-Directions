@@ -126,6 +126,8 @@ Don't include the `case rm_simple_movement:` if you do NOT have this room. Only 
 
 ##### `Step 10.`\|`4DIR`| :large_blue_diamond:
 
+If you do have multiple rooms you need a way to switch between them.  Only do the below if you want to switch rooms with the <kbd>Spacebar</kbd>.
+
 Open up **obj_game**. Press the <kbd>Add Event</kbd> and select a **Step | Step** event. Only add this if you want to switch between rooms with the different implementations of the 4 way movement.  
 
 * Check if space is pressed and if there is another room to go to
