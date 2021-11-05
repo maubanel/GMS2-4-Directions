@@ -79,6 +79,8 @@ switch (<expression>)
 > This works as follows:<br><br>1. First the expression is executed.
 Next it is compared with the results of the different constants after each of the case statements. When we say "constant" what we mean is that the value in the case cannot be a variable expression and must be a fixed value of any data type, like "fight" or 3 or the keyword noone.<br><br>2.The execution continues after the first case statement with the correct value, until a break statement is encountered.<br><br>3.If no case statement has the right value, then the default statement will be executed (it is not required to have a default statement, and if none is supplied then no action will be taken).
 
+So in this case we will be switching on `direction` when it is at 0° (East), 90° (North), 180° (West) and 270° (South).
+
 ![center text and add p_speed and ](images/replaceAngleWithSwitch.png)
 
 
