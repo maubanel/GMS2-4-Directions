@@ -57,7 +57,7 @@ If you don't already have an **obj_game** *right click* on **Objects** and selec
 * Center the text alignment
 * Set the color to yellow
 * Set up a temporary variable called `title`
-* Switch on the room and set the **title** to `"Last Key Pressed`
+* Switch on the room and set the **title** to `"Last Key Pressed"`
 * Draw title
 
 Don't include the `case rm_simple_movement:` if you do NOT have this room. Only include this if you have done the previous exercise.
