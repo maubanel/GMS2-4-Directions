@@ -117,6 +117,7 @@ We can just set the angle of the sprite to teh direction of the movement as the 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the player points in the direction they are moving in.  The player also wraps so that they are always in the play space (this is not necessary in most games where you block the player from leaving the game space).  The next issue is that the turning of the player is not smooth and it looks like the character is rotating from the top left corner.
 
+https://user-images.githubusercontent.com/5504953/140507528-422199a0-42a4-4d87-a002-0d151ea48810.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
