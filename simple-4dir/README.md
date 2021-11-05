@@ -52,7 +52,7 @@ https://user-images.githubusercontent.com/5504953/140513262-69545b68-f6f7-44f0-9
 
 ##### `Step 5.`\|`4DIR`| :small_orange_diamond:
 
-Complete the [Simple Movement Walkthrough](../simple-movement/README.md#user-content-simple-movement).  If you have already completed it
+If you have completed the previous Simple Movement walk through you can duplicate the **obj_player** object.  Or you can right click on **Objects** and select **Create | Object**.  Name it `obj_player_simple_4dir`.  Complete the [Simple Movement Walkthrough](../simple-movement/README.md#user-content-simple-movement).  
 
 ![copy all data from simple movement walk through](images/objPlayer.png)
 
