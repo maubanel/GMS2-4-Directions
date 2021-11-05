@@ -1,6 +1,6 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-### Simple Movement in 4 Directions
+### Simple Movement
 
 <sub>[[home](../README.md#user-content-gms2-move-in-4-directions) • [next](../last-key/README.md#user-content-last-key-pressed)</sub>
 
