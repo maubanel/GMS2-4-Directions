@@ -15,7 +15,7 @@ Now lets use a sprite that animates with 4 directions.  So we will not ritate a 
 
 ##### `Step 1.`\|`4DIR`|:small_blue_diamond:
 
-Download the [player sprites](../Assets/4 Direction Animations.yymps). Create a sprite called `spr_player` (I have called mine sp_player_2 as I have it in a single project with the simple implemtation).  Press the <kbd>Edit Image</kbd> button and draw a player and pick a color for it.  Change the **Origin** to `Middle | Center`.
+Download the [player sprites](../Assets/4DirectionAnimations.yymps). Create a sprite called `spr_player` (I have called mine sp_player_2 as I have it in a single project with the simple implemtation).  Press the <kbd>Edit Image</kbd> button and draw a player and pick a color for it.  Change the **Origin** to `Middle | Center`.
 
 ![create spr_player sprite](images/sprPlayer.png)
 
