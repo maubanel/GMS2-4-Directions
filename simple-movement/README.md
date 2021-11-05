@@ -135,9 +135,11 @@ The player is turning aroun the top left corner.  We want the player to turn fro
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. This is the most simple implentation of four way movement.
 
-The problem with simple controls like this is that it doesn't take into account more cmoplex behavior.  If I am pressing the <kbd>left</kbd> key and press <kbd>down</kbd> before letting go the player will still move left until I let go.  It doesn't take into account the *latest* button pressed.  I just will either be left, right down or up in that order, that if is pressed the `if else if` chain wills stop.
+The problem with simple controls like this is that it doesn't take into account more cmoplex behavior.  If I am pressing the <kbd>left</kbd> key and without letting go pressing <kbd>down</kbd> the player will still move left until I let go.  Where as if I press the <kbd>down</kbd> key and then hold <kbd>left</kbd> key with both keys pressed the player will move left. This inconsistent behavior is not desirable as we would like the input reaction to be identical in all cases. 
 
-![playing simple implementation of 4 direction movement](images/.gif)
+Our logic doesn't take into account the *latest* button pressed.  It just will either be left, right down or up in that order, that the button is pressed in the `if else if` chain. When one is true it stops checking for the next valid key.
+
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
