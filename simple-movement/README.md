@@ -97,7 +97,7 @@ So if none of the buttons are pressed we can end with an `else` since none of th
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now when you let go you stop.  This works but the player does not face the direction they are moving in. The player can also leave the room. Lets fix that.
 
-https://user-images.githubusercontent.com/5504953/140506734-1a8b0718-020c-49f8-8132-abb6fbc69819.mp4
+https://user-images.githubusercontent.com/5504953/140506919-5e184295-298b-41e2-980f-83c2410b5dfa.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
