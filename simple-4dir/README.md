@@ -52,9 +52,9 @@ https://user-images.githubusercontent.com/5504953/140513262-69545b68-f6f7-44f0-9
 
 ##### `Step 5.`\|`4DIR`| :small_orange_diamond:
 
-*Right click* on **Objects** and select **New | Object** and name it `obj_player_track_2`. Set the **Sprite** to `spr_player`.
+*Right click* on **Objects** and select **New | Object** and name it `obj_player` (since I have more than one player I have called mine `obj_player_simple_4dir`). Set the **Sprite** to `spr_player_right`.
 
-![obj_player_track_2 object with spr_player](images/objPlayer.png)
+![obj_player object with spr_player_right](images/objPlayer.png)
 
 In **obj_player_track_2** press the <kbd>Add Event</kbd> and select a **Create** event.
 
