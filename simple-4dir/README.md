@@ -25,8 +25,9 @@ Go back to **GameMaker** and press **Tools | Import Local Package**.
 
 ##### `Step 2.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: 
 
+Select the pakcage you just downloaded **4DirectionAnimations.yymps**.  Select the **Sprites** folder and press the <kbd>Select All</kbd> button.  This will move the contents of the folder with 4 animations to the right.  Press the <kbd>Import</kbd> button to import the animations.
 
-![select package](images/importPackage.png)
+![select package and press add all then import](images/importPackage.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
