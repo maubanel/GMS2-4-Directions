@@ -60,7 +60,7 @@ If you don't already have an **obj_game** *right click* on **Objects** and selec
 * Switch on the room and set the **title** to `"Last Key Pressed`
 * Draw title
 
-Don't incolude the `case rm_simple_movement:` if you do NOT have this room. Only include this if you have done the previous exercise.
+Don't include the `case rm_simple_movement:` if you do NOT have this room. Only include this if you have done the previous exercise.
 
 ![added title logic](images/objGame.png)
 
