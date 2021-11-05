@@ -115,6 +115,17 @@ Don't include the `case rm_simple_movement:` if you do NOT have this room. Only 
 
 ##### `Step 9.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Right click* on **Rooms** and select **New | Room** and name it `rm_simple_4Dir`. Change the **Room Order** to place this room on the top of the list or you can leave it in order and press the <kbd>Space Bar</kbd> to change rooms if you have done the previous exercise and added the **Step** event to **obj_game**.
+
+Drag and drop acopy of **obj_player** (**obj_player_simple_4Dir**) and **obj_game** to the level.
+
+![add rm_simple_4Dir and player and game](images/playerGameAdded.png)
+
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 10.`\|`4DIR`| :large_blue_diamond:
+
 Open up **obj_game**. Press the <kbd>Add Event</kbd> and select a **Step | Step** event. Only add this if you want to switch between rooms with the different implementations of the 4 way movement.  
 
 * Check if space is pressed and if there is another room to go to
@@ -123,15 +134,6 @@ Open up **obj_game**. Press the <kbd>Add Event</kbd> and select a **Step | Step*
 
 ![alt_text](images/switchRooms.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 10.`\|`4DIR`| :large_blue_diamond:
-
-*Right click* on **Rooms** and select **New | Room** and name it `rm_track_2`. Change the **Room Order** to place this room on the top of the list or you can leave it in order and press the <kbd>Space Bar</kbd> to change rooms if you have done the previous exercise and added the **Step** event to **obj_game**.
-
-Draw  copy of **obj_player_track_2** and **obj_game** to the level.
-
-![add rm_track_2](images/addRm.png)
 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
