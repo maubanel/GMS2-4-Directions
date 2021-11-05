@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Now we will take into account which key was the last valid movement key pressed.  This way if a player has a direction selected, then presses a new direction it goes in that direction regardless of the order of the keys pressed.  This is a slighly more sophisticated implementation than the [simple movement](../simple-movement/README.md#user-content-simple-movement-in-4-directions).
+Now lets use a sprite that animates with 4 directions.  So we will not ritate a single sprite but run 4 sprites, one for each direction.
 
 <br>
 
@@ -15,7 +15,7 @@ Now we will take into account which key was the last valid movement key pressed.
 
 ##### `Step 1.`\|`4DIR`|:small_blue_diamond:
 
-Create a sprite called `spr_player` (I have called mine sp_player_2 as I have it in a single project with the simple implemtation).  Press the <kbd>Edit Image</kbd> button and draw a player and pick a color for it.  Change the **Origin** to `Middle | Center`.
+Download the [player sprites](../Assets/4 Direction Animations.yymps). Create a sprite called `spr_player` (I have called mine sp_player_2 as I have it in a single project with the simple implemtation).  Press the <kbd>Edit Image</kbd> button and draw a player and pick a color for it.  Change the **Origin** to `Middle | Center`.
 
 ![create spr_player sprite](images/sprPlayer.png)
 
