@@ -139,7 +139,7 @@ The problem with simple controls like this is that it doesn't take into account 
 
 Our logic doesn't take into account the *latest* button pressed.  It just will either be left, right down or up in that order, that the button is pressed in the `if else if` chain. When one is true it stops checking for the next valid key.
 
-
+https://user-images.githubusercontent.com/5504953/140508686-68277b50-be2a-4c2b-90cf-765b4909e9cb.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
