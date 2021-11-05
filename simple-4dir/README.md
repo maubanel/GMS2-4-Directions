@@ -176,9 +176,11 @@ Now add before the switch statement:
 
 ##### `Step 14.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+https://user-images.githubusercontent.com/5504953/140521388-a7d77d02-f72b-4186-923d-c391641f74e6.mp4
+
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Player now stops when idling and starts animating again when moving.  We get the desired effect.  We still have the same control problem with inconsistent key results that we had in the previous exercise.
 
-https://user-images.githubusercontent.com/5504953/140521229-046d9ff3-8426-4ce2-b708-c3bd8605a2bd.mp4
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
