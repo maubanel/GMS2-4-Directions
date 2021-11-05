@@ -98,6 +98,16 @@ If you don't have one from the last exercise *Right click* on **Fonts** and sele
 
 ##### `Step 8.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Right click* on **Rooms** and select **New | Room** and name it `rm_simple_4Dir`. Change the **Room Order** to place this room on the top of the list or you can leave it in order and press the <kbd>Space Bar</kbd> to change rooms if you have done the previous exercise and added the **Step** event to **obj_game**.
+
+Drag and drop acopy of **obj_player** (**obj_player_simple_4Dir**) and **obj_game** to the level.
+
+![add rm_simple_4Dir and player and game](images/playerGameAdded.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 9.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 If you don't already have an **obj_game** *right click* on **Objects** and select **New | Object** and name it `obj_game`. Set **Persistent** to `true`. Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
 
 * Set the font to **fnt_title**
@@ -110,16 +120,6 @@ If you don't already have an **obj_game** *right click* on **Objects** and selec
 Don't include the `case rm_simple_movement:` if you do NOT have this room. Only include this if you have done the previous exercise.
 
 ![added title logic](images/objGame.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 9.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-*Right click* on **Rooms** and select **New | Room** and name it `rm_simple_4Dir`. Change the **Room Order** to place this room on the top of the list or you can leave it in order and press the <kbd>Space Bar</kbd> to change rooms if you have done the previous exercise and added the **Step** event to **obj_game**.
-
-Drag and drop acopy of **obj_player** (**obj_player_simple_4Dir**) and **obj_game** to the level.
-
-![add rm_simple_4Dir and player and game](images/playerGameAdded.png)
 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
