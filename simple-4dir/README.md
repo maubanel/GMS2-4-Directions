@@ -33,6 +33,15 @@ Select the pakcage you just downloaded **4DirectionAnimations.yymps**.  Select t
 
 ##### `Step 3.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+This will import 4 animations to the **Sprites | 4Dir** folder.  You will have **spr_player_left**, **spr_player_right**, **spr_player_up** and **spr_player_down**.
+
+![four imported animations](images/importedAnims.png)
+
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 4.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 *Right click* on **Objects** and select **New | Object** and name it `obj_player_track_2`. Set the **Sprite** to `spr_player`.
 
 ![obj_player_track_2 object with spr_player](images/objPlayer.png)
@@ -44,10 +53,6 @@ In **obj_player_track_2** press the <kbd>Add Event</kbd> and select a **Create**
 * Add a variable to store the last valid movement button pressed called `last_movement_key`
 
 ![center text and add p_speed and ](images/playerCreate.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 4.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 If you don't have one from the last exercise *Right click* on **Fonts** and select **New | Font** and name it `fnt_title`. Make the **Size** `36` and the **Style** `Bold`.
 
