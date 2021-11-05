@@ -144,7 +144,7 @@ Open up **obj_game**. Press the <kbd>Add Event</kbd> and select a **Step | Step*
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now if you implemented the **obj_game** you can press the <kbd>Space Bar</kbd> to switch rooms.  The room title changes and we have our **Last Key Pressed** title and our green player.
 
-![room with still player and title](images/LastKeyPressedNothing.gif)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
