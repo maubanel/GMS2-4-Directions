@@ -165,7 +165,12 @@ For `image_index`, the frame count starts at `0` so the third frame will be set 
 
 ##### `Step 13.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now add before the switch statement:
+
+* If player is moving set `image_speed` to `1`.
+* else if player is not moving set `image_speed` to `0` and `image_index` to `2`.
+
+![turn animation on and off](images/addFrameSelectionAndSpeed.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
