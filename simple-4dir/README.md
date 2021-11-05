@@ -142,7 +142,7 @@ Open up **obj_game**. Press the <kbd>Add Event</kbd> and select a **Step | Step*
 
 ##### `Step 11.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: 
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now if you implemented the **obj_game** you can press the <kbd>Space Bar</kbd> to switch rooms.  The room title changes and we have our **Last Key Pressed** title and our green player.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now if you implemented the **obj_game** you can press the <kbd>Space Bar</kbd> to switch rooms.  Now we switch between animations but if we stop the player animation still runs.
 
 https://user-images.githubusercontent.com/5504953/140519058-3c1d5827-61da-40dd-a347-d78207974ec6.mp4
 
@@ -151,7 +151,9 @@ https://user-images.githubusercontent.com/5504953/140519058-3c1d5827-61da-40dd-a
 
 ##### `Step 12.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up all four animations and press the <kbd>Edit Image</kbd> button.  You will notice that on the third frame is the one where both feet are on the ground.  We will use this frame as our **idle**.  We will use **[image_index](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_index.htm)** to pick this frame and **[image_speed**](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_speed.htm)** to start and stop the animation.
+
+![image index 2 is idle](images/imageIndex.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
