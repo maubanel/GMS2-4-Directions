@@ -19,19 +19,22 @@ Download the [player sprites](../Assets/4DirectionAnimations.yymps). Go back to 
 
 Go back to **GameMaker** and press **Tools | Import Local Package**.
 
-![create spr_player sprite](images/downloadImport.png)
+![download package and press import local package](images/downloadImport.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: 
 
-*Right click* on **Objects** and select **New | Object** and name it `obj_player_track_2`. Set the **Sprite** to `spr_player`.
 
-![obj_player_track_2 object with spr_player](images/objPlayer.png)
+![select package](images/importPackage.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+*Right click* on **Objects** and select **New | Object** and name it `obj_player_track_2`. Set the **Sprite** to `spr_player`.
+
+![obj_player_track_2 object with spr_player](images/objPlayer.png)
 
 In **obj_player_track_2** press the <kbd>Add Event</kbd> and select a **Create** event.
 
