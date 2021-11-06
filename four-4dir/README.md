@@ -126,7 +126,12 @@ For `image_index`, the frame count starts at `0` so the third frame will be set 
 
 ##### `Step 13.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **obj_player_track_2_4Dir | End Step** and add before the animation switching a check.
+
+* If speed is not 0 (player moving) then `image_speed = 1;`
+* Else if player is stopped `image_speed = 0;` and we want the third frame where both feet are standing on the ground `image_index = 2;`.
+
+![stop or start player](images/changeState.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
