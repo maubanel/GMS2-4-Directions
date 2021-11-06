@@ -162,7 +162,9 @@ Now no matter how many keys you press at the same time, they will all get assign
 
 ##### `Step 15.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+We have a large remaining problem.  Lets say we have three buttons held.  We let go of button 1 and 2.  So we only have button 3 left.  The number stays at 3.  So if we press two more buttons after the order is wrong and there are two buttons with number 3. 
+
+![show issue with button not released not reordering](images/NumberNotReordered.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
