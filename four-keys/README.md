@@ -2,11 +2,13 @@
 
 ### Four Keys Tracked
 
-<sub>[previous](../) • [home](../README.md#user-content-gms2-move-in-4-directions) • [next](../)</sub>
+<sub>[previous](../last-4dir/README.md#user-content-last-key-pressed-with-animated-player) • [home](../README.md#user-content-gms2-move-in-4-directions) • [next](../)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
 Here is the gold standard for four key controls.  We will track the order that each key is pressed in.  This way if you have all four keys pressed the order you release the keys will be reflected in the game picking the correct direction.  This makes the whole process a lot more complicated as we need to do a lot more work to achieve this goal.
+
+The last [walkthrough](../last-key/README.md#user-content-last-key-pressed) properly tracked two keys (fell apart when third or fourth key is pressed).  This one solves this issue.
 
 <br>
 
@@ -147,5 +149,5 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../)| [home](../README.md#user-content-gms2-move-in-4-directions) | [next](../)|
+| [previous](../last-4dir/README.md#user-content-last-key-pressed-with-animated-player)| [home](../README.md#user-content-gms2-move-in-4-directions) | [next](../)|
 |---|---|---|
