@@ -140,7 +140,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 12.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-
+https://user-images.githubusercontent.com/5504953/140608341-46f26ec4-6428-4a3a-b890-ec47c53c9141.mp4
 
 ![alt_text](images/firstPassMovement.png)
 
@@ -148,7 +148,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 13.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+https://user-images.githubusercontent.com/5504953/140608342-c88e8114-d940-4cc6-b900-feb06613bd90.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
