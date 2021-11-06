@@ -85,7 +85,10 @@ Draw  copy of **obj_player_track_4** and **obj_game** to the level.
 
 ##### `Step 7.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_player_track_4**. Press the <kbd>Add Event</kbd> and select a **Create** event. 
+* Center the player in the level 
+
+![alt_text](images/trackCreate.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
