@@ -8,6 +8,7 @@
 
 Lets add an animated player instead of a single frame sprite and switch between then.
 
+![download package and press import local package](images/downloadImport.png)
 <br>
 
 ---
