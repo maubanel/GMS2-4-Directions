@@ -41,7 +41,9 @@ This will import 4 animations to the **Sprites | 4Dir** folder.  You will have *
 
 ##### `Step 4.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up the animation and press the <kbd>Run Animation</kbd> button. You will see the player animates in four directions.
+
+![animation play and speed buttons](images/playSpeed.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
