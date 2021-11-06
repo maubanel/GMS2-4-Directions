@@ -146,14 +146,17 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 13.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now lets make a copy of **number_of_keys** and store it in `key_holder`.  I don't want to alter the **number_of_keys** variable as we want it to represent what it says.  So each time we set a key to **key_holder** we will subtract `1` from it. That way it will put a different number on each key and the order that it will be selected if they are pressed at the same time is **left** first to *up* last (*left* would be `4` if all 4 are pressed at the same time and *up* would be `1`).
 
-![alt_text](images/fixDupeIssue.png)
+![subtract 1 to have no duplicate frames](images/fixDupeIssue.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/NoDupes.png)
+Now no matter how many keys you press at the same time, they will all get assigned a different number.
+
+![play game and see no more duplicate numbers when multiple keys are pressed at once](images/NoDupes.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
