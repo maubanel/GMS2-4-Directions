@@ -96,7 +96,11 @@ Open up **obj_player_track_4**. Press the <kbd>Add Event</kbd> and select a **Cr
 
 ##### `Step 8.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
+
+* Change the
+
+![alt_text](images/drawGuiOne.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
