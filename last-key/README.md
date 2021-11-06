@@ -118,7 +118,8 @@ Now lets print out the last movement key pressed to make sure it works. Press th
 
 ##### `Step 10.`\|`4DIR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+
+![alt_text](images/KeepLastKey.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
