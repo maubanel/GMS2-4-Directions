@@ -17,6 +17,10 @@ The last [walkthrough](../last-key/README.md#user-content-last-key-pressed) prop
 
 ##### `Step 1.`\|`4DIR`|:small_blue_diamond:
 
+Create a sprite called `spr_player` (I have called mine `sp_player_3` as I have completed the previous walk throughs).  Press the <kbd>Edit Image</kbd> button and draw a player and pick a color for it.  Change the **Origin** to `Middle | Center`.
+
+![create spr_player sprite](images/sprPlayer.png)
+
 ![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
