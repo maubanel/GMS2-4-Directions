@@ -18,6 +18,7 @@ Lets look at various ways of moving a human character in 4 directions.
 <kbd></kbd> &nbsp;&nbsp; [Simple Movement with Animated Player](simple-4dir/README.md#user-content-simple-movement-with-animated-player) <br>
 <kbd></kbd> &nbsp;&nbsp; [Last Key Pressed](last-key/README.md#user-content-last-key-pressed) <br>
 <kbd></kbd> &nbsp;&nbsp; [Last Key Pressed with Animated Player](last-4dir/README.md#user-content-last-key-pressed-with-animated-player) <br>
+<kbd></kbd> &nbsp;&nbsp; [Four Keys Tracked](four-keys/README.md#user-content-four-keys-tracked) <br>
 
 ## Core Algorithm
 1. Get Controls
