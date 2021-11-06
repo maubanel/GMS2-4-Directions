@@ -2,7 +2,7 @@
 
 ### Simple Movement with Animated Player
 
-<sub>[previous](../simple-movement/README.md#user-content-simple-movement-in-4-directions) • [home](../README.md#user-content-gms2-move-in-4-directions) • [next](../)</sub>
+<sub>[previous](../simple-movement/README.md#user-content-simple-movement) • [home](../README.md#user-content-gms2-move-in-4-directions) • [next](../last-key/README.md#user-content-last-key-pressed)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -199,5 +199,5 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../simple-movement/README.md#user-content-simple-movement-in-4-directions)| [home](../README.md#user-content-gms2-move-in-4-directions) | [next](../)|
+| [previous](../simple-movement/README.md#user-content-simple-movement)| [home](../README.md#user-content-gms2-move-in-4-directions) | [next](../last-key/README.md#user-content-last-key-pressed)|
 |---|---|---|
