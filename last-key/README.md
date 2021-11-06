@@ -134,13 +134,14 @@ Now we only want to read the variable if a valid movement key is pressed so we c
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you will notice that the **last_movement_key** will only update if I press one of the movement keys I have defined.  This keeps other key presses out of this buffer.
 
+https://user-images.githubusercontent.com/5504953/140608341-46f26ec4-6428-4a3a-b890-ec47c53c9141.mp4
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-https://user-images.githubusercontent.com/5504953/140608341-46f26ec4-6428-4a3a-b890-ec47c53c9141.mp4
 
 ![alt_text](images/firstPassMovement.png)
 
