@@ -43,7 +43,7 @@ In **obj_player_track_2** press the <kbd>Add Event</kbd> and select a **Create**
 
 ##### `Step 4.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-If you don't have one from the last exercise *Right click* on **Fonts** and select **New | Font** and name it `fnt_title`. Make the **Size** `36` and the **Style** `Bold`.
+If you don't have the two fonts from the last exercise *Right click* on **Fonts** and select **New | Font** and name it `fnt_title`. Make the **Size** `36` and the **Style** `Bold`.
 
 Add another font called `fnt_hud` with a **Size** of `12` and **Style** `Regular`.
 
@@ -107,7 +107,9 @@ Now lets print out the last movement key pressed to make sure it works. Press th
 * Left align the text
 * Set the color of the font to white
 * Change to font hud
-
+* Create a temporary variable that stores the last key pressed
+* Switch to print which key is in the `last_key` variable
+* Print `hspeed`, `vspeed`, `speed`, `dreciton` and `last_movement_key`
 
 
 ![alt_text](images/drawGuiCode.png)
