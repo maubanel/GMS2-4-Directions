@@ -20,7 +20,7 @@ Lets look at various ways of moving a human character in 4 directions.
 <kbd></kbd> &nbsp;&nbsp; [Last Key Pressed with Animated Player](last-4dir/README.md#user-content-last-key-pressed-with-animated-player) <br>
 <kbd></kbd> &nbsp;&nbsp; [Four Keys Tracked](four-keys/README.md#user-content-four-keys-tracked) <br>
 <kbd></kbd> &nbsp;&nbsp; [Four Keys Tracked with Animated Player](four-4dir/README.md#user-content-four-keys-tracked-with-animated-player) <br>
-<kbd></kbd> &nbsp;&nbsp; [Using a Gamepad](four-4dir/README.md#user-content-using-a-gamepad) <br>
+<kbd></kbd> &nbsp;&nbsp; [Using a Gamepad](gamepad/README.md#user-content-using-a-gamepad) <br>
 
 ## Core Algorithm
 1. Get Controls
