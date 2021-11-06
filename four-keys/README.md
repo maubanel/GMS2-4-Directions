@@ -216,14 +216,42 @@ So now we can move the player.  We get the `latest_key` by calling the above fun
 
 ![move player in direction of last key press](images/movePlayer.png)
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you will move in the correct descending order when pressing and releasing all 4 buttons.  This makes sure that we are always playing the most recent button press tracking all four directions.
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 21.`\|`4DIR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you will move in the correct descending order when pressing and releasing all 4 buttons.  This makes sure that we are always playing the most recent button press tracking all four directions.
+
 ![play the game and now the player moves](images/TrackAndMove.gif)
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 22.`\|`4DIR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Add a **move_wrap()** to stop the player from going off screen.
+
+![stop player from leaving screen with move_wrap](images/moveWrap.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 23.`\|`4DIR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now since we would normally resolve collisions **before** we animate we need to wait until after the **step** event for the game to move the player if you are using `hspeed`, `vspeed` or `speed` to move the player. 
+
+Press the <kbd>Add Event</kbd> and select a **Step | End Step** event.
+
+Rotate the player in the direction they are moving.
+
+![rotate player in end step in direction they are moving](images/endStep.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+
+##### `Step 24.`\|`4DIR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
+
+![save, quit, commit and push to github](images/GitHub.png)
 ___
 
 
