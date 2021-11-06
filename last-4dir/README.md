@@ -88,7 +88,7 @@ So with using just `hspeed` and `vspeed` and zeroing out the unused axis we guar
 
 > You can change it to give the instance a different sprite by giving it the name of a sprite from the resource tree or by using a variable that has an externally loaded sprite indexed in it. Changing the sprite does not change the index of the currently visible frame, so if you change the sprite on frame number 3, the new sprite will be drawn with that frame visible (assuming it has the same number of frames). - GameMaker Manual
 
-Now we can use a `switch` statement (instead of `if.. else if chain) to select a different animation depending on the direction the player is pointing in.
+Now we can use a `switch` statement (instead of `if.. else if chain) to select a different animation depending on the direction the player is pointing in. Open up **obj_player_track_2_4Dir | End Step** script and replace the old contents with this switching logic.
 
 ![change player sprite depending on direction](images/endStep.png)
 
