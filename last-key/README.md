@@ -62,7 +62,7 @@ If you don't already have an **obj_game** *right click* on **Objects** and selec
 
 Don't include the `case rm_simple_movement:` if you do NOT have this room. Only include this if you have done the previous exercise.
 
-![added title logic](images/objGame.png)
+![add rooms titles](images/objGame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
