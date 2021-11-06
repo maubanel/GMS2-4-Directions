@@ -138,7 +138,9 @@ So how do we reset keys back to `0` when they are let go.  This is very simple. 
 
 ##### `Step 12.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now if you press four keys, then let them go and press 4 more - we get the behavior we desire.  There are still lots of issues.  One is what if I press two keys during the same frame, that key gets the same number.
+
+![press four keys to four numbers, two keys give duplicate numbers](images/FourKeysDupeIssues.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
