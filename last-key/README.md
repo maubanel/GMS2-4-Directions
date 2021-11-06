@@ -158,7 +158,9 @@ https://user-images.githubusercontent.com/5504953/140608342-c88e8114-d940-4cc6-b
 
 ##### `Step 14.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+So what we can do to allow a consistent two button behavior is to inject the old logic and check for a pressed key if all the last key checks fail.  So before the final `else` add a check to see if a button is held.
+
+![add second pressed key check if no last key](images/SecondCheck.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
