@@ -249,6 +249,10 @@ Rotate the player in the direction they are moving.
 
 ##### `Step 24.`\|`4DIR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. This should produce perfect 4 direction movement.
+
+![final 4 direction movement in game](images/FinishedMovement.gif)
+
 Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
 ![save, quit, commit and push to github](images/GitHub.png)
