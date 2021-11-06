@@ -129,7 +129,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 
 ##### `Step 11.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+So how do we reset keys back to `0` when they are let go.  This is very simple.  Now since the key will be a `1` if `keyboard_check_pressed(key)` returns **true** or `0` if **false**. So if we multiply the key by the press if that key is pressed it will multiply the number by 1 and stay the same.  But if the key is let go it will multiply by 0 getting the behavior we desire.
+
+![reset keys when not pressed](images/resetKeys.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
