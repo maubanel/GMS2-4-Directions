@@ -170,6 +170,10 @@ We have a large remaining problem.  Lets say we have three buttons held.  We let
 
 ##### `Step 16.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+We are going to write our first custom **[function](https://manual.yoyogames.com/GameMaker_Language/GML_Overview/Script_Functions.htm)**. I can create a script in the scripts folder and make that function global, but since I only need this for the player I can wraite the function in the same block of code and make it local to this game object.
+
+
+
 ![alt_text](images/addFunctionLowestKey.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
