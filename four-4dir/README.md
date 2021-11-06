@@ -53,7 +53,6 @@ Complete the [last Four Keys walk through](../four-keys/README.md#user-content-f
 
 ![dubplicate the track 4 player and add spr_player_right sprite to it](images/dupeObject.png)
 
-![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
