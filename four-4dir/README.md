@@ -75,7 +75,7 @@ Open up **obj_game | Draw GUI** script and add this title to the draw event.
 
 ##### `Step 8.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now open up **obj_player_track_4_4Dir | Draw Gui** and add the `speed`, `hspeed` and `vspeed` to the display to see what is happening to the physics of the player.
+Now open up **obj_player_track_4_4Dir | Draw Gui** and add the `speed`, `hspeed`, `vspeed` and `direction` to the display to see what is happening to the physics of the player.
 
 ![add speeds to hud](images/addMoreHelperText.png)
 
