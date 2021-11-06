@@ -59,9 +59,9 @@ Complete the [last Four Keys walk through](../four-keys/README.md#user-content-f
 ##### `Step 6.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond:
 
 *Right click* on **Rooms** and select **New | Room** and name it `rm_track_4_4Dir
-`. Change the **Room Order** to place this room on the top of the list or in the order you would like.
+`. Change the **Room Order** to place this room on the top of the list or in the order you would like. Drag and drop **obj_player_track_4_4Dir** and **obj_game** into the level.
 
-![alt_text](images/.png)
+![add room rm_track_4_4Dir and obj_game and obj_player_track_4_4Dir](images/addRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -69,27 +69,24 @@ Complete the [last Four Keys walk through](../four-keys/README.md#user-content-f
 
 Open up **obj_game | Draw GUI** script and add this title to the draw event.
 
-![alt_text](images/.png)
+![add title to level in obj_game draw gui](images/titleLogic.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now this is silly we rotate the sprite which is not what we would like.
+Now open up **obj_player_track_4_4Dir | Draw Gui** and add the `speed`, `hspeed` and `vspeed` to the display to see what is happening to the physics of the player.
 
-![alt_text](images/.png)
+![add speeds to hud](images/addMoreHelperText.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now this is silly we rotate the sprite which is not what we would like.
+
 So with using just `hspeed` and `vspeed` and zeroing out the unused axis we guarantee that our angle is precisely `0`, `90`, `180` or `270`.  We can use **[sprite_index](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/sprite_index.htm)** to get change the sprite the object is pointing to. 
 
-> You can change it to give the instance a different sprite by giving it the name of a sprite from the resource tree or by using a variable that has an externally loaded sprite indexed in it. Changing the sprite does not change the index of the currently visible frame, so if you change the sprite on frame number 3, the new sprite will be drawn with that frame visible (assuming it has the same number of frames). - GameMaker Manual
-
-Now we can use a `switch` statement (instead of `if.. else if chain) to select a different animation depending on the direction the player is pointing in. Open up **obj_player_track_2_4Dir | End Step** script and replace the old contents with this switching logic.
-
-![change player sprite depending on direction](images/endStep.png)
 
 ![alt_text](images/.png)
 
@@ -97,7 +94,11 @@ Now we can use a `switch` statement (instead of `if.. else if chain) to select a
 
 ##### `Step 10.`\|`4DIR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+> You can change it to give the instance a different sprite by giving it the name of a sprite from the resource tree or by using a variable that has an externally loaded sprite indexed in it. Changing the sprite does not change the index of the currently visible frame, so if you change the sprite on frame number 3, the new sprite will be drawn with that frame visible (assuming it has the same number of frames). - GameMaker Manual
+
+Now we can use a `switch` statement (instead of `if.. else if chain) to select a different animation depending on the direction the player is pointing in. Open up **obj_player_track_2_4Dir | End Step** script and replace the old contents with this switching logic.
+
+![change player sprite depending on direction](images/endStep.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
