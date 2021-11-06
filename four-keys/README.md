@@ -182,7 +182,13 @@ This function will return the lowest numbered key based on a starting number.  S
 
 Now open up the **obj_player_track_4 | Step** event and add:
 
-* 
+* Check to see if the last number of keys pressed is greater than the current number of keys pressed (so we go from 4 to 3 for example).  If there is at least one key pressed and less keyss from last frame then reorder keys.
+
+* Loop through each key from the lowest to the highest.  
+* Return the next lowest number.  Check all four keys to see if it is the lowest number and that it is larger than the loop number (`i`).  If so set that new lower number
+* Increment the loop by 1.
+
+Now after this check we need to add as the last thing what the current `number_of`keys` is.  This will be stored in `last_number_of_keys` that we will check next time this event is triggerd.
 
 ![alt_text](images/addKeyReorderingToStep.png)
 
