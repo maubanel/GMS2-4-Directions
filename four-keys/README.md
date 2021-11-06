@@ -75,7 +75,11 @@ Open up **obj_game**. Press the <kbd>Add Event</kbd> and select a **Step | Step*
 
 ##### `Step 6.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+*Right click* on **Rooms** and select **New | Room** and name it `rm_track_4`. Change the **Room Order** to place this room on the top of the list or you can leave it in order and press the <kbd>Space Bar</kbd> to change rooms if you have done the previous exercise and added the **Step** event to **obj_game**.
+
+Draw  copy of **obj_player_track_4** and **obj_game** to the level.
+
+![add rm_track_2](images/addRm.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
