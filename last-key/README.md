@@ -78,7 +78,7 @@ Open up **obj_game**. Press the <kbd>Add Event</kbd> and select a **Step | Step*
 * If so, then go to next room
 * Else if space is pressed, go back to first room (if it exists)
 
-![alt_text](images/switchRooms.png)
+![add step event and logic to move from room to room](images/switchRooms.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -112,12 +112,19 @@ Now lets print out the last movement key pressed to make sure it works. Press th
 * Print `hspeed`, `vspeed`, `speed`, `dreciton` and `last_movement_key`
 
 
-![alt_text](images/drawGuiCode.png)
+![draw speeds and last movement key to draw gui event](images/drawGuiCode.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`4DIR`| :large_blue_diamond:
 
+Now lets store the key presses in shorter variables so we can access the keys quicker than typing in the `keyboard_check(key)` every time.  We will store them in 4 temporary variables, `left`, `right`, `down` and `up`.
+
+We will use the **[keyboard_lastkey](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input/keyboard_lastkey.htm)** variable that **GameMaker** updates.
+
+> This variable refers to the value that keyboard_key was in the previous frame, returning the keycode of that key (all standard keycode constants are returned). - GameMake Manual
+
+Now we only want to read the variable if a valid movement key is pressed so we check to see if **keyboard_lastkey** contains `vk_left`, `vk_right`, `vk_up` or `vk_down`.
 
 ![alt_text](images/KeepLastKey.png)
 
