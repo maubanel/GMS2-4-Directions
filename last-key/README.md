@@ -142,7 +142,9 @@ https://user-images.githubusercontent.com/5504953/140608341-46f26ec4-6428-4a3a-b
 
 ##### `Step 12.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now the only difference we make to the first simple implementation is that we look for both the key being pressed as well as the last movement key being pressed.  So it wil only move if the button is pressed **and** if it was the last key pressed.  We end with stopping the player if no movement button is the last key pressed.
+Press the <kbd>Add Event</kbd> and select a **Step | Step** event.
+
+Now the only difference we make to the first simple implementation is that we look for both the key being pressed as well as the last movement key being pressed.  So it wil only move if the button is pressed **and** if it was the last key pressed.  We end with stopping the player if no movement button is the last key pressed. We will also add a **move_wrap()** to ensure the player doesn't leave the screen.
 
 ![move player when button and last movement key are true](images/firstPassMovement.png)
 
@@ -184,31 +186,27 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 
 ##### `Step 17.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now the final element we will implement is the direction the player is facing in. Now instead of putting it in the step event it is a good idea to put it in an **end step** event.  This is because if we were to do collision detection (move the player outside of an area that they are not supposed to enter) this needs to be done **after** the player moves. When using `speed`, `hspeed` or `vspeed` the player only gets updated to their new position **after** the **step | step** event has run but *before* the **step | end step**.  This means that if we were to check for a player entering an area they shouldn't have, this would need to be done in the end step.
+
+Press the <kbd>Add Event</kbd> and select a **Step | End Step** event. Now make the player face the direction they are moving in.
+
+![add end step and face movement direction](images/endStep.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now your player faces the correct direction and you have consistent controls tracking two buttons.
+
+![player is moving facing the correct direction](images/PlayerFacesCorrectly.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 20.`\|`4DIR`| :large_blue_diamond: :large_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 21.`\|`4DIR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
+![save, quit, commit and push to github](images/GitHub.png)
 
 ___
 
