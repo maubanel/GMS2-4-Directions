@@ -196,6 +196,8 @@ Now after this check we need to add as the last thing what the current `number_o
 
 ##### `Step 18.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now let go of keys and the numbers should always be resaled **in order** to the current number of keys pressed.
+
 ![alt_text](images/ReorderKeys.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
