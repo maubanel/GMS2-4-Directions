@@ -98,15 +98,18 @@ Open up **obj_player_track_4**. Press the <kbd>Add Event</kbd> and select a **Cr
 
 Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
 
-* Change the
+* Change the alignment to left aligned
+* Change the font color
+* Change fonts to `fnt_hud`
+* draw the four keys integer and it should be `0` if not pressed or `1` through `4` depending on the order
 
-![alt_text](images/drawGuiOne.png)
+![add draw_gui and draw four keys to screen](images/drawGuiOne.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/4wayStepOne.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
