@@ -198,19 +198,21 @@ Now after this check we need to add as the last thing what the current `number_o
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now let go of keys and the numbers should always be resaled **in order** to the current number of keys pressed.
 
-![alt_text](images/ReorderKeys.gif)
+![now order is correct when lowering number of keys](images/ReorderKeys.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we can move to animating the player.  First we need to know which key has the highest number (the last key pressed).  So under the previous function we will add a new one that's only job is to return the key with the highest number.
+
+![return key with highest number](images/returnHighestNumberKey.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`4DIR`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/movePlayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
