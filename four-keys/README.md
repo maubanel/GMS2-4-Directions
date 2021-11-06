@@ -34,7 +34,13 @@ Create a sprite called `spr_player` (I have called mine `sp_player_3` as I have 
 
 ##### `Step 3.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+If you don't have the two fonts from the last exercise *Right click* on **Fonts** and select **New | Font** and name it `fnt_title`. Make the **Size** `36` and the **Style** `Bold`.
+
+Add another font called `fnt_hud` with a **Size** of `12` and **Style** `Regular`.
+
+![added title font](images/fntTitle.png)
+
+![added hud font](images/fntHud.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
