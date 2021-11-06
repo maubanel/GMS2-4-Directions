@@ -15,23 +15,35 @@ Lets add an animated player instead of a single frame sprite and switch between 
 
 ##### `Step 1.`\|`4DIR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+If you do not have the monkey character moving in four directions then download the [player sprites](../Assets/4DirectionAnimations.yymps). Go back to **GameMaker** and make sure you have an existing [GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/rename-project/README.md#user-content-rename-gms2-project).
+
+Go back to **GameMaker** and press **Tools | Import Local Package**.
+
+![download package and press import local package](images/downloadImport.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Select the package you just downloaded **4DirectionAnimations.yymps**.  Select the **Sprites** folder and press the <kbd>Add All</kbd> button.  This will move the contents of the folder with 4 animations to the right.  Press the <kbd>Import</kbd> button to import the animations.
+
+![select package and press add all then import](images/importPackage.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+This will import 4 animations to the **Sprites | 4Dir** folder.  You will have **spr_player_left**, **spr_player_right**, **spr_player_up** and **spr_player_down**.
+
+![four imported animations](images/importedAnims.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Open up the animation and press the <kbd>Run Animation</kbd> button. You will see the player animates in four directions.
+
+![animation play and speed buttons](images/playSpeed.png)
 
 ![alt_text](images/.png)
 
@@ -39,7 +51,9 @@ Lets add an animated player instead of a single frame sprite and switch between 
 
 ##### `Step 5.`\|`4DIR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Complete the [last walk through](../last-key/README.md#user-content-last-key-pressed) so you have a final game object **obj_player_track_2**. Right click and duplicate the object and call it `obj_player_track_2_4Dir`.  Assign the `spr_player_right` sprite as the default sprite. 
+
+![dubplicate the track 2 player and add spr_player_right sprite to it](images/dupeObject.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
