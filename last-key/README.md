@@ -132,7 +132,7 @@ Now we only want to read the variable if a valid movement key is pressed so we c
 
 ##### `Step 11.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: 
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you will notice that the **last_movement_key** will only update if I press one of the movement keys I have defined.  This keeps other key presses out of this buffer.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you will notice that the **last_movement_key** will only update if you press one of the movement keys you have defined.  This keeps other key presses out of this buffer.
 
 https://user-images.githubusercontent.com/5504953/140608341-46f26ec4-6428-4a3a-b890-ec47c53c9141.mp4
 
@@ -142,12 +142,15 @@ https://user-images.githubusercontent.com/5504953/140608341-46f26ec4-6428-4a3a-b
 
 ##### `Step 12.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Now the only difference we make to the first simple implementation is that we look for both the key being pressed as well as the last movement key being pressed.  So it wil only move if the button is pressed **and** if it was the last key pressed.  We end with stopping the player if no movement button is the last key pressed.
 
-![alt_text](images/firstPassMovement.png)
+![move player when button and last movement key are true](images/firstPassMovement.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now it works more consistently than the previous implementation.  It always needs to be the last movement button pressed.  But it stops me from pressing another button quickly then letting go as the remaining button press is no longer last and the player will stop.  I think we can do better.
 
 https://user-images.githubusercontent.com/5504953/140608342-c88e8114-d940-4cc6-b900-feb06613bd90.mp4
 
