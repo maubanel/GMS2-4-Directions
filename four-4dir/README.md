@@ -67,6 +67,8 @@ Complete the [last Four Keys walk through](../four-keys/README.md#user-content-f
 
 ##### `Step 7.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Open up **obj_game | Draw GUI** script and add this title to the draw event.
+
 ![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
