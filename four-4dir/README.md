@@ -49,6 +49,10 @@ Open up the animation and press the <kbd>Run Animation</kbd> button. You will se
 
 ##### `Step 5.`\|`4DIR`| :small_orange_diamond:
 
+Complete the [last Four Keys walk through](../four-keys/README.md#user-content-four-keys-tracked) so you have a final game object **obj_player_track_4**. Right click and duplicate the object and call it `obj_player_track_4_4Dir`.  Assign the `spr_player_right` sprite as the default sprite. 
+
+![dubplicate the track 4 player and add spr_player_right sprite to it](images/dupeObject.png)
+
 ![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
