@@ -58,6 +58,9 @@ Complete the [last Four Keys walk through](../four-keys/README.md#user-content-f
 
 ##### `Step 6.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond:
 
+*Right click* on **Rooms** and select **New | Room** and name it `rm_track_4_4Dir
+`. Change the **Room Order** to place this room on the top of the list or in the order you would like.
+
 ![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
