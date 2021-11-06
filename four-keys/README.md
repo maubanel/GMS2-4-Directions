@@ -87,8 +87,10 @@ Draw  copy of **obj_player_track_4** and **obj_game** to the level.
 
 Open up **obj_player_track_4**. Press the <kbd>Add Event</kbd> and select a **Create** event. 
 * Center the player in the level 
+* Create 4 variables to store which key was pressed in which order.  So `left_key`, `right_key`, `up_key`, `down_key` will be give a number between `1` and `4` in the order it was pressed.
+* Create a final variable `last_number_of_keys` which we will use to see if the number of keys we have pressed last frame is less than the number of keys we have pressed now.  You will see why later why we need to track this.
 
-![alt_text](images/trackCreate.png)
+![create event for obj_player_track_4](images/trackCreate.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
