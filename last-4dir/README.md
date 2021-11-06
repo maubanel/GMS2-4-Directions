@@ -1,12 +1,12 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-### Add Title
+### Last Key Pressed with Animated Player
 
 <sub>[previous](../) • [home](../README.md#user-content-gms2-move-in-4-directions) • [next](../)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Lets add an animated player instead of a single frame sprite and switch between then.
 
 <br>
 
