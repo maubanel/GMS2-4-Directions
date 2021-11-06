@@ -2,11 +2,11 @@
 
 ### Using a Gamepad
 
-<sub>[previous](../) • [home](../README.md#user-content-gms2-move-in-4-directions) • [next](../)</sub>
+<sub>[previous](../four-4dir/README.md#user-content-four-keys-tracked-with-animated-player) • [home](../README.md#user-content-gms2-move-in-4-directions) • [next](../)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Adding a joystick is much easier as we only have one input device that gives us a direction and magnitude, so there are no multiple button issues we have to track.
 
 <br>
 
@@ -147,5 +147,5 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../)| [home](../README.md#user-content-gms2-move-in-4-directions) | [next](../)|
+| [previous](../four-4dir/README.md#user-content-four-keys-tracked-with-animated-player)| [home](../README.md#user-content-gms2-move-in-4-directions) | [next](../)|
 |---|---|---|

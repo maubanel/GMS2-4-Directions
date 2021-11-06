@@ -7,8 +7,6 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
 Lets add an animated player instead of a single frame sprite and switch between then.
-
-![download package and press import local package](images/downloadImport.png)
 <br>
 
 ---
@@ -46,7 +44,6 @@ Open up the animation and press the <kbd>Run Animation</kbd> button. You will se
 
 ![animation play and speed buttons](images/playSpeed.png)
 
-![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -148,7 +145,7 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT T4DIRE">
+<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Track All 4 Keys">
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
