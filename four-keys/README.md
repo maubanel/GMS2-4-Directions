@@ -21,7 +21,6 @@ Create a sprite called `spr_player` (I have called mine `sp_player_3` as I have 
 
 ![create spr_player sprite](images/sprPlayer.png)
 
-![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
