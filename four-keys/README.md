@@ -121,7 +121,9 @@ Press the <kbd>Add Event</kbd> and select a **Step | Step** event.
 
 ##### `Step 10.`\|`4DIR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Press four keys one after another and see that each key gets the appropriate number.  The first key pressed gets `1` and the last key pressed gets `4`.  Now this only sets it when it wasn't set the last frame.  So we cannot retrack the order when we release the keys and press them again.
+
+![store four key presses once](images/4KeysNoReset.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
