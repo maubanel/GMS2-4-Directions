@@ -166,13 +166,19 @@ So what we can do to allow a consistent two button behavior is to inject the old
 
 ##### `Step 15.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now when you press a second button while holding the first and release it the player still moves.  This works consistently in all directions with all two button combinations. 
+
+https://user-images.githubusercontent.com/5504953/140608731-4e75a7f7-ca86-4d82-a58c-a826ddf56499.mp4
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Press and hold in this order <kbd>Left</kbd> -> <kbd>Down</kbd> -> <kbd>Right</kbd>.  Now let go of the keys in reverse order.  The game goes from going right to going left as opposed to going down the second last key pressed.  Now for some this might be acceptible.  Because we have pushed the inconsistent key outcome to the third key pressed which is much less likely to happen.
+
+
+![ThreeButtonIssue](https://user-images.githubusercontent.com/5504953/140608793-706d1f9f-e676-4ba2-b5c5-e8b245f3e18a.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
