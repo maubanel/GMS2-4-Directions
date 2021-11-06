@@ -84,7 +84,13 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 9.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+So with using just `hspeed` and `vspeed` and zeroing out the unused axis we guarantee that our angle is precisely `0`, `90`, `180` or `270`.  We can use **[sprite_index](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/sprite_index.htm)** to get change the sprite the object is pointing to. 
+
+> You can change it to give the instance a different sprite by giving it the name of a sprite from the resource tree or by using a variable that has an externally loaded sprite indexed in it. Changing the sprite does not change the index of the currently visible frame, so if you change the sprite on frame number 3, the new sprite will be drawn with that frame visible (assuming it has the same number of frames). - GameMaker Manual
+
+Now we can use a `switch` statement (instead of `if.. else if chain) to select a different animation depending on the direction the player is pointing in.
+
+![change player sprite depending on direction](images/endStep.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
