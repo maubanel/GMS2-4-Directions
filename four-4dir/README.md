@@ -19,6 +19,8 @@ If you do not have the monkey character moving in four directions then download 
 
 Go back to **GameMaker** and press **Tools | Import Local Package**.
 
+![download package and press import local package](images/downloadImport.png)
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: 
