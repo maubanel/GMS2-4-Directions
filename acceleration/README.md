@@ -75,7 +75,9 @@ Now open up **obj_player_accelerate_4Dir | Step**  event and change the variable
 
 ##### `Step 8.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now when you move you keep speeding up endlessly until you go too fast to see the player.
+
+![run game and go infinitely fast](images/enlessAccel.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
