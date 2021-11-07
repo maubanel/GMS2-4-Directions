@@ -15,7 +15,7 @@ Our player is at maximum speed right away.  There is no sense of them having a f
 
 ##### `Step 1.`\|`4DIR`|:small_blue_diamond:
 
-Complete the [Four Keys Tracked with Animated Player](four-4dir/README.md#user-content-four-keys-tracked-with-animated-player) walk through.  We will use this as our starting off point. 
+Complete the [Four Keys Tracked with Animated Player](../four-4dir/README.md#user-content-four-keys-tracked-with-animated-player) walk through.  We will use this as our starting off point. 
 
 ![alt_text](images/dupePlayer.png)
 
