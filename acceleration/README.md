@@ -134,19 +134,23 @@ What we can do is divide the speed that we play `image_speed` by the speed the p
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now when you play the player accelerates at the same time as the animation accelerates!
 
-![player animaion now accelerates](images/CorrectSpeed.gif)
+![player animation now accelerates](images/CorrectSpeed.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **obj_player_accelerate_4Dir | Create** event and make `p_force` a number that you like best.  I am picking `.15`.
+
+![change p_force to .15](images/readjustPForce.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. With trial and error get it to a point where you feel you have the responsiveness as well as visual feedback to the acceleration.
+
+![play game with acceleration at acceptable rate](images/FinalAcceleration.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
