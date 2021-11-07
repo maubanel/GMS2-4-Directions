@@ -23,6 +23,8 @@ Lets look at various ways of moving a human character in 4 directions.
 <kbd></kbd> &nbsp;&nbsp; [Using a Gamepad](gamepad/README.md#user-content-using-a-gamepad) <br>
 <kbd></kbd> &nbsp;&nbsp; [Acceleration](acceleration/README.md#user-content-acceleration) <br>
 <kbd></kbd> &nbsp;&nbsp; [Breaking Friction](friction/README.md#user-content-breaking-friction) <br>
+<kbd></kbd> &nbsp;&nbsp; [Rotate Top Down Animation](rotate-down/README.md#user-content-rotate-top-down-animation) <br>
+
 
 
 ## Core Algorithm
