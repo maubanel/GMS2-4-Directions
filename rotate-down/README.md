@@ -25,7 +25,7 @@ Duplicate **obj_player_friction_4Dir** and name the object `obj_player_rotation`
 
 ##### `Step 2.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: 
 
-*Right click* on **Rooms** and select **New | Room** and name it `rm_rotation. Change the **Room Order** to place this room on the top of the list or use the space bar.
+*Right click* on **Rooms** and select **New | Room** and name it `rm_rotation`. Change the **Room Order** to place this room on the top of the list or use the space bar.
 
 *Drag and drop* **obj_game** and **obj_player_rotation** into the level.
 
