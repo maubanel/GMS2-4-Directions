@@ -21,6 +21,8 @@ Lets look at various ways of moving a human character in 4 directions.
 <kbd></kbd> &nbsp;&nbsp; [Four Keys Tracked](four-keys/README.md#user-content-four-keys-tracked) <br>
 <kbd></kbd> &nbsp;&nbsp; [Four Keys Tracked with Animated Player](four-4dir/README.md#user-content-four-keys-tracked-with-animated-player) <br>
 <kbd></kbd> &nbsp;&nbsp; [Using a Gamepad](gamepad/README.md#user-content-using-a-gamepad) <br>
+<kbd></kbd> &nbsp;&nbsp; [Acceleration](acceleration/README.md#user-content-acceleration) <br>
+
 
 ## Core Algorithm
 1. Get Controls
