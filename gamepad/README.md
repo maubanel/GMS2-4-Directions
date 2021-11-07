@@ -139,7 +139,9 @@ We will then change the direction of the player based on any valid directions ch
 
 ##### `Step 12.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+With **obj_player_controller**, press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event. We will draw the speed and direction to the screen so we can have a visual representation of what is going on.
+
+![draw speed and direction to screen](images/addDrawGUI.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
