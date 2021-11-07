@@ -101,7 +101,7 @@ Now we will loop through all the possible gamepads on the platform (Windows and 
 
 ##### `Step 9.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now look to see what index your controller is at.  In my case it found a controller at **index** `0`.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now look to see what index your controller is at.  In my case it found a controller at **index** `0`. If you don't see a controller, try rebooting the computer and starting this step over again.
 
 ![controller in slot 0 found](images/controllerDetected.png)
 
