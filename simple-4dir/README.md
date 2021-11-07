@@ -108,7 +108,7 @@ Drag and drop acopy of **obj_player** (**obj_player_simple_4Dir**) and **obj_gam
 
 ##### `Step 9.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-If you don't already have an **obj_game** *right click* on **Objects** and select **New | Object** and name it `obj_game`. Set **Persistent** to `true`. Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
+If you don't already have an **obj_game** *right click* on **Objects** and select **New | Object** and name it `obj_game`. Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event.
 
 * Set the font to **fnt_title**
 * Center the text alignment
@@ -176,11 +176,8 @@ Now add before the switch statement:
 
 ##### `Step 14.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-https://user-images.githubusercontent.com/5504953/140521388-a7d77d02-f72b-4186-923d-c391641f74e6.mp4
-
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Player now stops when idling and starts animating again when moving.  We get the desired effect.  We still have the same control problem with inconsistent key results that we had in the previous exercise.
-
-
+https://user-images.githubusercontent.com/5504953/140521388-a7d77d02-f72b-4186-923d-c391641f74e6.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
