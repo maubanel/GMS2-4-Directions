@@ -2,7 +2,7 @@
 
 ### Breaking Friction
 
-<sub>[previous](../acceleration/README.md#user-content-acceleration) • [home](../README.md#user-content-gms2-move-in-4-directions) • [next](../)</sub>
+<sub>[previous](../acceleration/README.md#user-content-acceleration) • [home](../README.md#user-content-gms2-move-in-4-directions) • [next](../rotate-down/README.md#user-content-rotate-top-down-animation)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -104,5 +104,5 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../acceleration/README.md#user-content-acceleration)| [home](../README.md#user-content-gms2-move-in-4-directions) | [next](../)|
+| [previous](../acceleration/README.md#user-content-acceleration)| [home](../README.md#user-content-gms2-move-in-4-directions) | [next](../rotate-down/README.md#user-content-rotate-top-down-animation)|
 |---|---|---|
