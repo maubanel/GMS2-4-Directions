@@ -2,7 +2,7 @@
 
 ### Acceleration
 
-<sub>[previous](../gamepad/README.md#user-content-using-a-gamepad) • [home](../README.md#user-content-gms2-move-in-4-directions) • [next](../)</sub>
+<sub>[previous](../gamepad/README.md#user-content-using-a-gamepad) • [home](../README.md#user-content-gms2-move-in-4-directions) • [next](../friction/README.md#user-content-breaking-friction)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -165,9 +165,9 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT T4DIRE">
+<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Breaking Friction">
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../gamepad/README.md#user-content-using-a-gamepad)| [home](../README.md#user-content-gms2-move-in-4-directions) | [next](../)|
+| [previous](../gamepad/README.md#user-content-using-a-gamepad)| [home](../README.md#user-content-gms2-move-in-4-directions) | [next](../friction/README.md#user-content-breaking-friction)|
 |---|---|---|
