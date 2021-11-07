@@ -104,7 +104,9 @@ We return the final degree in angles and **mod** it by 360 which keeps the range
 
 ##### `Step 9.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now further down the **step** event we will call this function with the desired target angle as well as the speed to get there in all four directions.
+
+![call angle_difference for each axis](images/moveTowardsCall.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
