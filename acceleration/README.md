@@ -27,27 +27,33 @@ Duplicate **obj_player_track_4_4Dir** and name the object `obj_player_accelerati
 
 *Right click* on **Rooms** and select **New | Room** and name it `rm_acceleration`. Change the **Room Order** to place this room on the top of the list or use the space bar.
 
-*Drag and drop* **obj_game** and **obj_player_acceleration** into the level.
+*Drag and drop* **obj_game** and **obj_player_acceleration_4Dir** into the level.
 
-![add rm_acceleration as well as obj_game and obj_player_acceleration](images/AddRoom.png)
+![add rm_acceleration as well as obj_game and obj_player_acceleration_4Dir](images/AddRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Go to **obj_game | Draw GUI** and add a title for this level.
+
+![add title](images/addTitles.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+ 
+ Now open up **obj_player_acceleration_4Dir | Step** event.  Lets accept both keyboard **and** gamepad inputs.  So add an or (||) statement so that both inputs will work.
 
-![alt_text](images/.png)
+![check for gamepad and keyboard](images/checkBothInputDevices.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`4DIR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you can play the game with both gamepad and keyboard!
+
+![play the game and control with keyboard and gamepad](images/4DirControlAndKey.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
