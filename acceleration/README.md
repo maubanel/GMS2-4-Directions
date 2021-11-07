@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Our player is at maximum speed right away.  There is no sense of them having a force applied and going towards max speed.  Lets implement a more sophisticated physcis model starting by addin a force to accelerate to terminal velocity.
 
 <br>
 
@@ -15,7 +15,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`4DIR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Complete the [Four Keys Tracked with Animated Player](four-4dir/README.md#user-content-four-keys-tracked-with-animated-player) walk through.  We will use this as our starting off point. 
+
+![alt_text](images/dupePlayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
