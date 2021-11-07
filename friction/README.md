@@ -29,7 +29,7 @@ Duplicate **obj_player_friction_4Dir** and name the object `obj_player_friction_
 
 *Drag and drop* **obj_game** and **obj_player_friction_4Dir** into the level.
 
-![add rm_acceleration as well as obj_game and obj_player_acceleration_4Dir](images/AddRoom.png)
+![add rm_friction as well as obj_game and obj_player_friction_4Dir](images/breakingFriction.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
