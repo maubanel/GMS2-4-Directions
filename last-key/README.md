@@ -102,7 +102,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 9.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets print out the last movement key pressed to make sure it works. Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event. 
+Now lets print out the last movement key pressed to make sure it works. Open up **obj_player_track_2**. Press the <kbd>Add Event</kbd> and select a **Draw | Draw GUI** event. 
 
 * Left align the text
 * Set the color of the font to white
