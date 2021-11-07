@@ -2,7 +2,7 @@
 
 ### Breaking Friction
 
-<sub>[previous](../) • [home](../README.md#user-content-gms2-move-in-4-directions) • [next](../)</sub>
+<sub>[previous](../acceleration/README.md#user-content-acceleration) • [home](../README.md#user-content-gms2-move-in-4-directions) • [next](../)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -15,7 +15,11 @@ Lets expand the physics model and alter the breaking friction of the character b
 
 ##### `Step 1.`\|`4DIR`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Complete the [Acceleration](../acceleration/README.md#user-content-acceleration) walk through.  We will use this as our starting off point and add friction. 
+
+Duplicate **obj_player_friction_4Dir** and name the object `obj_player_friction_4Dir`.
+
+![duplicate obj_player_friction_4dir](images/DupeFriction.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -147,5 +151,5 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../)| [home](../README.md#user-content-gms2-move-in-4-directions) | [next](../)|
+| [previous](../acceleration/README.md#user-content-acceleration)| [home](../README.md#user-content-gms2-move-in-4-directions) | [next](../)|
 |---|---|---|
