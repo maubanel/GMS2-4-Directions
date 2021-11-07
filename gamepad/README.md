@@ -147,19 +147,25 @@ With **obj_player_controller**, press the <kbd>Add Event</kbd> and select a **Dr
 
 ##### `Step 13.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/Dpad1.gif)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you see the player moves but does not stop when we let go. The player also goes off screen and you can't see them anymore.
+
+![player moves but does not stop](images/Dpad1.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Stop the player if there is no input and add **move_wrap** to keep player in the level.
+
+![stop player and add movewrap](images/stopmoveWrap.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now everything works the way it should but the player is not facing in the direction we would like.
+
+![play game and player stops but does not face the direction they are moving in](images/Dpad2.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
