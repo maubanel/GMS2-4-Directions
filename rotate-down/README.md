@@ -43,7 +43,9 @@ Go to **obj_game | Draw GUI** and add a title for this level.
 
 ##### `Step 4.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we will be adding rotation to a top down character without different angles of animation.  Create a new **Sprite** and call it `spr_player`.  Press the <kbdd>Edit Image</kbd> button and create a top down view.  Make sure the **origin** is set to `Middle Center`.
+
+![alt_text](images/sprPlayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
