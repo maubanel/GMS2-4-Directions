@@ -43,7 +43,7 @@ Go to **obj_game | Draw GUI** and add a title for this level.
 
 ##### `Step 4.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we will be adding rotation to a top down character without different angles of animation.  Create a new **Sprite** and call it `spr_player`.  Press the <kbdd>Edit Image</kbd> button and create a top down view.  Make sure the **origin** is set to `Middle Center`.
+Now we will be adding rotation to a top down character without different angles of animation.  Create a new **Sprite** and call it `spr_player`.  Press the <kbdd>Edit Image</kbd> button and create a top down view.  Make sure the **Origin** is set to `Middle Center`.
 
 ![create spr_player sprite and center origin](images/sprPlayer.png)
 
@@ -51,19 +51,25 @@ Now we will be adding rotation to a top down character without different angles 
 
 ##### `Step 5.`\|`4DIR`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Open up **obj_player_rotation** and assign the above sprite to it.
+
+![assign sprite to obj_player_rotation](images/assignSprite.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_player_rotation | End Step** and delete its contents.  We will not be switching animations in the end step.
+
+![clear out end step](images/clearOutEndStep.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now open up **obj_player_rotation | Create** and add a `turning_friction` variable and set it to `.8`.  This will be used the adjust the speed of how fast the player rotates from its current position to its target.  Please note that this will not affect the physics.  The player's movement will not be affected at all and this is purely visual.
+
+![add turning_friction variable](images/turningFriction.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
