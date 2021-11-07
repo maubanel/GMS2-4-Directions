@@ -96,6 +96,8 @@ temp = image_angle - min(abs(temp), frict * 10) * sign(temp);
 
 This is not as complicated as it looks.  Now our **temp** target could be positive or negative.  So we need to subtract from our image_anlge a positive **temp**.  This is what **abs()** does, it removes the sign.  Now for the last step it will overshoot the target if the difference isn't precise.  So we take the smallet mumber the temp, or frict * 10 to get precisely to the target.  We then multiply it by `-1` or `1` which is what **sign(temp)** does.
 
+We return the final degree in angles and **mod** it by 360 which keeps the range from -360 to 360.
+
 ![alt_text](images/addFunction.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
