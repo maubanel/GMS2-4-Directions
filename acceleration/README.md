@@ -124,7 +124,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 14.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+What we can do is divide the speed that we play `image_speed` by the speed the player is moving by the max_speed.  So when it is full max_speed this will be `1` (the speed in the game previously) and when the speed is lower it will be fractional all the way down to 0 when the player stops. Open up **obj_player_accelerate_4Dir | End Step** and add this change to the `image_speed`.
+
+![scale speed](images/scaleSpeed.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
