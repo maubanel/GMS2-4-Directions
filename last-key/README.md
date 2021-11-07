@@ -162,7 +162,7 @@ https://user-images.githubusercontent.com/5504953/140608342-c88e8114-d940-4cc6-b
 
 So what we can do to allow a consistent two button behavior is to inject the old logic and check for a pressed key if all the last key checks fail.  So before the final `else` add a check to see if a button is held.
 
-We will also include a **room_wrap()** so the player doesn't accidentally leave the room.
+We will also include a **move_wrap()** so the player doesn't accidentally leave the room.
 
 ![add second pressed key check if no last key](images/SecondCheck.png)
 
