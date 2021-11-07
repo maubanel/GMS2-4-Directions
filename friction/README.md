@@ -85,7 +85,7 @@ Now you can adjut the `p_friction` in the player object's create event to your l
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you have a full physics model with acceleration and breaking friction working in your four directions of movement on both a keyboard and gamepad!
 
-![final friction in game](images/FinalFriction.png)
+![final friction in game](images/FinalFriction.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
