@@ -69,7 +69,7 @@ If either the <kbd>left</kbd> or <kbd>right</kbd> keys are pressed then we set t
 
 If either the <kbd>up</kbd> or <kbd>down</kbd> keys are pressed then we set the `vspeed` to a positive (down) or negative (up) number.  We then set any vestigial speed in the horizontal domain to `0` by setting `hspeed = 0;`.
 
-Please note that setting `hspeed = -2.5` is the same as setting the `direction = 180; speed = 2.5`.
+Please note that setting `hspeed = -2.5; vspeed = 0` is the same as setting the `direction = 180; speed = 2.5`.
 
 ![add a keyboard check function and subtract right button from left button and print result to console log](images/simpleStepEvent.png)
 
