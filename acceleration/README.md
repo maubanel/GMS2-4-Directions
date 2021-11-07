@@ -132,7 +132,9 @@ What we can do is divide the speed that we play `image_speed` by the speed the p
 
 ##### `Step 15.`\|`4DIR`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now when you play the player accelerates at the same time as the animation accelerates!
+
+![player animaion now accelerates](images/CorrectSpeed.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
