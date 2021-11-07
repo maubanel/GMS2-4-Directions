@@ -83,7 +83,7 @@ First we check to see that we are not already pointing in the correct direciton.
 var temp = angle_difference(image_angle, angle);
 ```
 
-We need to find the fastest route between two angles,  So if the angle is 90° apart, we not want to rotate -270° we want to take the shortest route either clockwise or counter clockwise.  This is what the **angle_difference(image_anlge, angle)** function returns.  The quickest way to our desitation!
+We need to find the fastest route between two angles,  So if the angle is 90° apart, we not want to rotate -270° we want to take the shortest route either clockwise or counter clockwise.  This is what the **angle_difference(image_anlge, angle)** function returns the quickest angle to our desitation!
 
 ```
 if (angle - image_angle == 180) temp *= -1;
