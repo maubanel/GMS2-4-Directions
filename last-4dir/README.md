@@ -58,7 +58,7 @@ Complete the [last walk through](../last-key/README.md#user-content-last-key-pre
 ##### `Step 6.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond:
 
 *Right click* on **Rooms** and select **New | Room** and name it `rm_track_2_4Dir
-`. Change the **Room Order** to place this room on the top of the list or in the order you would like.
+`. Change the **Room Order** to place this room on the top of the list or in the order you would like. Drag a copy of **obj_game** and **obj_player_track_2_4Dir** into this new room.
 
 ![alt_text](images/roomGamePlayer.png)
 
