@@ -83,7 +83,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 9.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Go back to your **obj_player_accelerate_4Dir | Create** event and change `p_speed` to `max_speed`.The value will still be `2.5`, but this now represents our maximum speed.
+
+![change p_speed to max_speed](images/maxSpeed.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
