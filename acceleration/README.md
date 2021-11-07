@@ -91,7 +91,9 @@ Go back to your **obj_player_accelerate_4Dir | Create** event and change `p_spee
 
 ##### `Step 10.`\|`4DIR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now we will use the **[clamp(val, min, max)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/clamp.htm)**.  With this function you can maintain an input value between a specified range. So we will limit the `speed` to be a value between `0` and `max_speed`. Open up **obj_player_accelerate_4Dir | Step** and add this clamp.
+
+![clamp max speed](images/clampSpeed.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
