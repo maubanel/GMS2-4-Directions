@@ -107,7 +107,7 @@ Now lets have the player character look at the direction it is moving in.  Now w
 		
 > All instances in GameMaker Studio 2 have certain "built in" properties that you can use and set to govern how they look and behave. Direction is one of those properties and can be used to set the direction of movement of the instance when the instance has a speed other than 0. Note that directions in GameMaker Studio 2 are usually calculated as 0° being right, 90° being up, 180° being left and 270° being down. - GameMaker Manual
 
-We can just set the angle of the sprite to teh direction of the movement as the player will always be facing the angle they move in.  We will also add the ability to wrap if you want this functionality.  Most games restrict leaving the level so this might not be necessary or desirable.
+We can just set the angle of the sprite to the direction of the movement as the player will always be facing the angle they move in.  We will also add the ability to wrap if you want this functionality.  Most games restrict leaving the level so this might not be necessary or desirable.
 
 ![add movement to script by using hspeed and vspeed with the input axis](images/turnPlayerWrap.png)
 
@@ -190,7 +190,7 @@ Create another **Font** and call it `fnt_hud`.  Make the **Size** `12` and **Sty
 * Left align the text
 * Set the font to white
 * Draw the hspeed 
-* Draw teh vspeed
+* Draw the vspeed
 
 ![hud font drawing hspeed and vspeed in obj_player](images/playerHUD.png)
 
