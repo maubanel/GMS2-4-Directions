@@ -62,7 +62,7 @@ If you don't already have an **obj_game** *right click* on **Objects** and selec
 * Center the text alignment
 * Set the color to yellow
 * Set up a temporary variable called `title`
-* Switch on the room and set the **title** to `"Last Key Pressed"`
+* Switch on the room and set the **title** to `"DPad on Controller"`
 * Draw title
 
 Don't include the rooms that you DO NOT have. Only include the other rooms if you have done the previous exercises.
@@ -101,7 +101,9 @@ Now we will loop through all the possible gamepads on the platform (Windows and 
 
 ##### `Step 9.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now look to see what index your controller is at.  In my case it found a controller at **index** `0`.
+
+![controller in slot 0 found](images/controllerDetected.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
