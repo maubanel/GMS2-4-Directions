@@ -25,7 +25,11 @@ Duplicate **obj_player_friction_4Dir** and name the object `obj_player_friction_
 
 ##### `Step 2.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+*Right click* on **Rooms** and select **New | Room** and name it `rm_friction. Change the **Room Order** to place this room on the top of the list or use the space bar.
+
+*Drag and drop* **obj_game** and **obj_player_friction_4Dir** into the level.
+
+![add rm_acceleration as well as obj_game and obj_player_acceleration_4Dir](images/AddRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
