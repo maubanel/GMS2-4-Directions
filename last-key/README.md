@@ -15,7 +15,7 @@ Now we will take into account which key was the last valid movement key pressed.
 
 ##### `Step 1.`\|`4DIR`|:small_blue_diamond:
 
-Create a sprite called `spr_player` (I have called mine sp_player_2 as I have it in a single project with the simple implemtation).  Press the <kbd>Edit Image</kbd> button and draw a player and pick a color for it.  Change the **Origin** to `Middle | Center`.
+Create a sprite called `spr_player` (I have called mine `sp_player_2` as I have it in a single project with the simple implemtation).  Press the <kbd>Edit Image</kbd> button and draw a player and pick a color for it.  Change the **Origin** to `Middle | Center`.
 
 ![create spr_player sprite](images/sprPlayer.png)
 
