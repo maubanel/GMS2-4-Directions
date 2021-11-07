@@ -172,7 +172,7 @@ We have a large remaining problem.  Lets say we have three buttons held.  We let
 
 We are going to write our first custom **[function](https://manual.yoyogames.com/GameMaker_Language/GML_Overview/Script_Functions.htm)**. I can create a script in the scripts folder and make that function global, but since I only need this for the player I can write the function in the same block of code and make it local to this game object.
 
-This function will return the lowest numbered key based on a starting number.  So I I pass **starting_num** as `2` it will return the lowest key number that is `2` or higher.  So if I only have a key with `3` it will return that key from the function.
+This function will return the lowest numbered key based on a starting number.  So if you pass **starting_num** as `2` it will return the lowest key number that is `2` or higher.  So if I only have a key with `3` it will return that key from the function.
 
 ![return_lowest_num function](images/addFunctionLowestKey.png)
 
