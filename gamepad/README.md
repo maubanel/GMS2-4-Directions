@@ -21,13 +21,13 @@ Create a sprite called `spr_player` (I have called mine `spr_player_4` as I have
 
 ![create spr_player sprite](images/sprPlayer.png)
 
-![alt_text](images/.png)
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`4DIR`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+*Right click* on **Objects** and select **New | Object** and name it `obj_player_controller`. Set the **Sprite** to `spr_player` (or `spr_player_4`).
+
+![obj_player_controller object with spr_player](images/objPlayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
