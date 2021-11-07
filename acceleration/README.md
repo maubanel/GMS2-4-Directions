@@ -108,13 +108,17 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 12.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now lets slow down acceleration and take a critical look at it. Open up **obj_player_accelerate_4Dir | Create** event and change the `p_force` to `0.01`.  This will slow down the acceleration.
+
+![change p_force to .01](images/slowAcceleration.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice that the acceleration is VERY slow.  But the animation runs at full speed.
+
+![play in game and notice animation is running too fast](images/WrongSpeed.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
