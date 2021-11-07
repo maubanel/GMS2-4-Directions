@@ -6,7 +6,9 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Adding a joystick is much easier as we only have one input device that gives us a direction and magnitude, so there are no multiple button issues we have to track.
+Adding a joystick is much easier as we only have one input device that gives us a direction and magnitude, so there are no multiple button issues we have to track. The best choice for the Windows PC is a XBOX controller and for the mac it is a PS3 or PS4 controller (the documentation says it only supports the PS3 controller on the mac, but the PS4 controller does work using bluetooth on 11.15).
+
+We will be using the gamepad as opposed to the analogue stick as it feels weird to have an analogue stick with just 4 directions.
 
 <br>
 
@@ -14,6 +16,10 @@ Adding a joystick is much easier as we only have one input device that gives us 
 
 
 ##### `Step 1.`\|`4DIR`|:small_blue_diamond:
+
+Create a sprite called `spr_player` (I have called mine `spr_player_4` as I have it in a single project with the other implentations).  Press the <kbd>Edit Image</kbd> button and draw a player and pick a color for it.  Change the **Origin** to `Middle | Center`.
+
+![create spr_player sprite](images/sprPlayer.png)
 
 ![alt_text](images/.png)
 
