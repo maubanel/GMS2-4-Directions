@@ -109,13 +109,30 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 10.`\|`4DIR`| :large_blue_diamond:
 
-![alt_text](images/.png)
+*Right click* on **Rooms** and select **New | Room** and name it `rm_controller`. Change the **Room Order** to place this room on the top of the list or you can leave it in order and press the <kbd>Space Bar</kbd> to change rooms if you have done the previous exercise and added the **Step** event to **obj_game**.
+
+Drag a copy of **obj_player_controller** and **obj_game** to the level.
+
+![add rm_controller](images/addRm.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+We will be using **[gamepad_button_check(device, button)](https://docs2.yoyogames.com/source/_build/3_scripting/4_gml_reference/controls/gamepad%20input/gamepad_button_check.html)**
+
+> This function will return true or false depending on whether the given gamepad button is detected as being held down or not. - GameMaker Manual
+
+We will be using `gp_padl`, `gp_padu`, `gp_padd` and `gp_padr` as directions to move in. 
+
+![xbox gamepad names](images/gamepad.png)
+
+The **device** was the number that printed in our alarm.  In my case it is **device** `0`.
+
+We will then change the direction of the player based on any valid directions check for.  If any of the buttons are pressed we will apply acceleration.
+
+
+![alt_text](images/gamepadButtonCheck.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -128,7 +145,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 13.`\|`4DIR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/Dpad1.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
