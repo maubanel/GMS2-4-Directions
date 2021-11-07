@@ -17,7 +17,7 @@ Lets expand the physics model and alter the breaking friction of the character b
 
 Complete the [Acceleration](../acceleration/README.md#user-content-acceleration) walk through.  We will use this as our starting off point and add friction. 
 
-Duplicate **obj_player_friction_4Dir** and name the object `obj_player_friction_4Dir`.
+Duplicate **obj_player_acceleration_4Dir** and name the object `obj_player_friction_4Dir`.
 
 ![duplicate obj_player_friction_4dir](images/DupeFriction.gif)
 
