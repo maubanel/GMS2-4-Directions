@@ -59,7 +59,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 6.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond:
 
-Now we want to add a force to the player each frame so they accelerate and don't hit their maximum speed right away.  Open up **obj_player_accelerate_4Dir** and add a variable called `p_force` to the script and set it to a very small number like `0.1`.  It will run every frame so 60 times a second.
+Now we want to add a force to the player each frame so they accelerate and don't hit their maximum speed right away.  Open up **obj_player_accelerate_4Dir | Create** event add a variable called `p_force` to the script and set it to a very small number like `0.1`.  It will run every frame so 60 times a second.
 
 ![add p_force to player create event](images/addForce.png)
 
@@ -67,7 +67,9 @@ Now we want to add a force to the player each frame so they accelerate and don't
 
 ##### `Step 7.`\|`4DIR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now open up **obj_player_accelerate_4Dir | Step**  event and change the variable we use for acceleration and instead of setting it, add or subtract depending on the direction you are moving in.
+
+![add or subtract acceleration](images/addSubtractPForce.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
