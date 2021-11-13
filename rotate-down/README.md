@@ -88,7 +88,7 @@ We need to find the fastest route between two angles,  So if the angle is 90° a
 ```
 if (angle - image_angle == 180) temp *= -1;
 ```
-This is done so that the image flips rotation when moving positive 180 degrees.  It looks a git better to my eyes, but is not absolutely necessary.
+This is done so that the image flips rotation when moving positive 180 degrees.  It looks a little bit better to my eyes, but is not absolutely necessary.
 
 ```
 temp = image_angle - min(abs(temp), frict * 10) * sign(temp);
