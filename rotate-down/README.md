@@ -77,7 +77,7 @@ Now open up **obj_player_rotation | Create** and add a `turning_friction` variab
 
 Lets add a new function called `move_towards(angle, frict)`.  **angle** is the angle we would like to change to and **frict** is the speed we get there.  The lower the number, the slower we turn, the larger the number the faster we turn.
 
-First we check to see that we are not already pointing in the correct direciton.  If we are we just return the angle unchanged.  If not:
+First we check to see that we are not already pointing in the correct direction.  If we are we just return the angle unchanged.  If not:
 
 ```
 var temp = angle_difference(image_angle, angle);
